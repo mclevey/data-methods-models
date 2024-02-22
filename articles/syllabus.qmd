@@ -3,4 +3,158 @@ title: Syllabus
 author: John McLevey
 ---
 
-Coming soon...
+- [ ] #todo Old syllabus draft needs to be revised and refactored for the new course site, etc.
+
+**Dr. John McLevey (he/him)**  
+Knowledge Integration, Sociology & Legal Studies   
+University of Waterloo (Waterloo, ON, Canada)   
+<john.mclevey@uwaterloo.ca>
+
+# Course Description
+
+This course introduces students to contemporary quantitative research methods with a practical focus on learning to develop causal and probabilistic models using Python. We will focus primarily on linear models (multiple regression, hierarchical models, Binomial and Poisson regression) from a Bayesian perspective.^[Whoa! Bayes? 🙀 This course teaches statistical practice from a Bayesian perspective rather than a classical / Frequentist perspective. Two things are worth considering. **First**, the statistics wars are over, so we won't bother with philosophical debates about which paradigm is superior. Both have a place in contemporary science, but I emphasize Bayes because it is revolutionizing many scientific fields (the social sciences included) and is, in my view, better suited to the types of questions and theory that social scientists are interested in, the data we often work with, and the problems we encounter with both. **Second**, the Bayesian approach is considered by many to be more "advanced" and mathematically challenging. This is true for some approaches to teaching/learning and practicing Bayesian statistics, but that is also true of the classical / Frequentist approach. The good news is that the most challenging parts of Bayesian analysis have been made obsolete thanks to improvements in computing power, which means we can focus on the conceptual aspects of Bayesian modelling and automate inference using modern "probabilistic programming languages." In this course, we will use Python's `PyMC`.] We will also introduce other modelling approaches for simulating social processes, analyzing text/language data, and social/cultural/political networks. Overall, this course will enable students to conduct credible quantitative analyses and provide a solid foundation for future learning.
+
+# Learning Objectives 
+
+Learning objectives are provided in the [Course Schedule](#course-schedule) section for all 12 course modules.
+
+# Readings & Research Software
+
+You do not need to purchase any books for this class. All readings are made available in the style of a "course pack" here: 
+
+- John McLevey, **[An Introduction to Reproducible Quantitative Research from a Bayesian Perspective](../textbook/index.qmd)**. Draft Manuscript. 
+
+See the [Course Schedule](#course-schedule) for weekly reading assignments and links.
+
+# Assessment
+
+| Course Component | Value | Due Date |
+| :--- | ---- | ---- |
+| Weekly Online Quizzes | 30% | Weeks 2-12 |
+| Weekly Problems (Pass/Fail) | 20% | Every week |
+| Midterm Exam | 20% | Week 6 |
+| Final Exam | 30% | Exam Period |
+
+## Weekly Online Quizzes (30%)
+
+Starting in Week 2, there will be a short online quiz consisting of ~ 10 multiple choice or true/false questions every week. These quizzes will cover content from the previous week and are intended to help you stay on track (course content is cumulative) and learn more deeply by practicing two evidence-based learning strategies: spaced repetition and retrieval. There are 11 quizzes in total. **I will automatically drop your lowest grade**. The remaining 10 quizzes are worth 3% each.
+
+## Weekly Problems (20%)
+
+> "The one who does the work does the learning." 
+> - Todd Zakrajsek (2022), *The New Science of Learning: How to Learn in Harmony with Your Brain*. Routledge.
+
+Each assigned reading ends with a set of questions and/or problems to help you develop foundational skills and learn the content more deeply. You must complete at least 2 questions / problems and upload your work to the appropriate Dropbox on Learn. You will receive a "pass" for any reasonable attempt.
+
+## Midterm (20%) and Final Exam (30%)
+
+There will be an **in-class midterm exam** in Week 6, testing course material from Weeks 1-5. The **final exam** will cover content from the entire course, but with a heavy emphasis on material introduced in Weeks 6-12 (which builds on the first 5 weeks). 
+
+# Course Schedule
+
+## Week 1: Problems with the Quantitative Status Quo, Introduction to the Course 
+
+[Assigned Reading]() | [Questions & Problems]() | [Slides]() | [Module Quiz]()
+
+Week 1 sets the context for the rest of the course. It provides a sociological and historical overview of how statistical analysis has traditionally been practiced and taught in the social, cognitive, health, and environmental sciences with an emphasis on three major problems: a lack of transparency and reproducibility, an adherence to "Null Hypothesis Significance Testing" (NHST) and other inappropriate approaches, and the uncritical deployment of "statistical golems" (McElreath). In response to these problems, it will introduce three ways we can do better quantitative research, which together make up a kind of "foundational cycle" (Browne 2023): 
+
+1. adopting causal models and making our assumptions explicit; 
+2. employing prior knowledge, probabilistic thinking, and Bayesian inference to quantify uncertainty and develop generative models for specific research and policy problems; and 
+3. using best practices for research computing to ensure our work is transparent and reproducible, and that we are accountable for the work we produce.
+
+We will deepen our knowledge of all three, and their relationships with one another, as the course progresses. 
+
+- The Sociology, History, and Philosophy of Statistics in the Sciences
+- What Wrong with the Quantitative Status Quo? 
+	- Ethical Science, Statistical Golems, and Null Hypothesis Significance Testing (NHST)
+- We Can Do Better (Part 1)!
+	- Causality, Probability, and the Quantification of Uncertainty via Bayesian Inference
+- Overview of Course Topics, Learning Objectives, and Assessment Methods
+
+## Week 2: Doing Better Quantitative Research
+
+> “No causes in, no causes out!”
+> - Nancy Cartwright (1989), *Nature's Capacities and Their Measurement*. Oxford: Clarendon Press.
+
+- We Can Do Better (Part 2)! 
+	- Centring Causality and Uncertainty with Model-based Data Analysis and Bayesian Inference
+- What are models? What is Bayesian Inference? 
+	- Counting and the Reallocation of Credibility Across All Possibilities
+- What is Causal Inference? 
+
+## Week 3: Getting Started with Research Computing 
+
+- Research Computing Setup
+	- VS Code, Jupyter, Quarto, and Git (+ GitHub)
+	- How and When to (Not) Use LLMs for Coding and Data Analysis Help
+- Python for Modelling and Quantitative Data Analysis
+- Basics of Data Summary and Visualization with Python
+
+## Week 4: Thinking Through (Causal) Models
+
+- Conceptual Causal Models Come First, Statistical Models Come Second
+- Making Our Assumptions Explicit (Part 1): Graphical Models
+- Planning and Simulating an Analysis; Iterative Analysis
+- Measurement; Latent Spaces, Factors, and Variables
+
+## Week 5: Thinking Probabilistically 
+
+- Introduction to Probabilistic Programming with Python
+- Working with Probability Distributions; Random Variables and Modular Building Blocks
+- Marginal, Joint, and Conditional Probability
+- Making Our Assumptions Explicit (Part 2): Model Notation
+
+## Week 5: Uncertainty, Sampling, and the (Re)allocation of Credibility
+
+- Managing Expectations: Parameter Space, Priors, and Posterior Probability
+- Exploring Parameter Space: Approximate Inference with Grids and Samplers
+- Understanding and Using MCMC Sampling with Python’s `PyMC`
+
+## Week 6: Linear Regression
+
+- Introduction to Linear Models
+- Simulation and Prior Predictive Checks
+- Conditioning a Model with Empirical Data
+- Identifying, Diagnosing, and Fixing Problems
+- Kruschke Diagrams
+
+## Week 7: Multiple Regression
+
+- Introduction to Multiple Regression
+- Identifying, Diagnosing, and Fixing Problems
+- Making Sense of Interactions
+- Interpreting and Communicating Results
+
+## Week 8: Heterogeneity, Clustering, and Hierarchical Regression 
+
+- Introduction to Multi-level / Hierarchical Regression
+- Identifying, Diagnosing, and Fixing Problems
+- Interpreting and Communicating Results
+- Multiple Models, Model Comparison
+
+## Week 9: Going Further With, and Beyond, Linear Models 
+
+- Measurement Error and Missing Data
+- Going Further with (Generalized) Linear Models
+	- Logistic, Binomial, Poisson Regression
+- Going Beyond Linear Models
+	- Text as Data, Networks, and Agent-based Simulation
+
+## Week 10: Text as Data 
+
+- Introduction to Text as Data, Speech Recognition, and Natural Language Processing
+- Generative Text Summarization and Topic Models
+- Emotion Concepts and Sentiment Analysis
+
+## Week 11: (Social, Cultural, Political) Networks 
+
+- Introduction to (Social, Cultural, Political) Networks
+- Network Structure and Positional Analysis / Stochastic Blockmodels with Python’s `networkx` and `graph-tool`
+- Social Embeddings, Centrality, and Power
+
+## Week 12: Complexity and Social Simulations
+
+- Social Interaction, Network Dynamics, and Agent-based Simulation
+- Simulating Social Learning, Influence, and Opinion Dynamics with Python’s `mesa`
+
+# Course, Department, and University Policies

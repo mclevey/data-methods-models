@@ -376,11 +376,11 @@
     "text": "Coming soon…"
   },
   {
-    "objectID": "index.html#mfc",
-    "href": "index.html#mfc",
+    "objectID": "index.html#what-is-mfc-and-fcit",
+    "href": "index.html#what-is-mfc-and-fcit",
     "title": "FCIT 607 Data, Methods, and Models",
-    "section": "MFC",
-    "text": "MFC"
+    "section": "What is MFC and FCIT?",
+    "text": "What is MFC and FCIT?"
   },
   {
     "objectID": "articles/resources.html",
@@ -411,7 +411,126 @@
     "href": "articles/syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Coming soon…"
+    "text": "#todo Old syllabus draft needs to be revised and refactored for the new course site, etc.\nDr. John McLevey (he/him)\nKnowledge Integration, Sociology & Legal Studies\nUniversity of Waterloo (Waterloo, ON, Canada)\njohn.mclevey@uwaterloo.ca"
+  },
+  {
+    "objectID": "articles/syllabus.html#weekly-online-quizzes-30",
+    "href": "articles/syllabus.html#weekly-online-quizzes-30",
+    "title": "Syllabus",
+    "section": "Weekly Online Quizzes (30%)",
+    "text": "Weekly Online Quizzes (30%)\nStarting in Week 2, there will be a short online quiz consisting of ~ 10 multiple choice or true/false questions every week. These quizzes will cover content from the previous week and are intended to help you stay on track (course content is cumulative) and learn more deeply by practicing two evidence-based learning strategies: spaced repetition and retrieval. There are 11 quizzes in total. I will automatically drop your lowest grade. The remaining 10 quizzes are worth 3% each."
+  },
+  {
+    "objectID": "articles/syllabus.html#weekly-problems-20",
+    "href": "articles/syllabus.html#weekly-problems-20",
+    "title": "Syllabus",
+    "section": "Weekly Problems (20%)",
+    "text": "Weekly Problems (20%)\n\n“The one who does the work does the learning.” - Todd Zakrajsek (2022), The New Science of Learning: How to Learn in Harmony with Your Brain. Routledge.\n\nEach assigned reading ends with a set of questions and/or problems to help you develop foundational skills and learn the content more deeply. You must complete at least 2 questions / problems and upload your work to the appropriate Dropbox on Learn. You will receive a “pass” for any reasonable attempt."
+  },
+  {
+    "objectID": "articles/syllabus.html#midterm-20-and-final-exam-30",
+    "href": "articles/syllabus.html#midterm-20-and-final-exam-30",
+    "title": "Syllabus",
+    "section": "Midterm (20%) and Final Exam (30%)",
+    "text": "Midterm (20%) and Final Exam (30%)\nThere will be an in-class midterm exam in Week 6, testing course material from Weeks 1-5. The final exam will cover content from the entire course, but with a heavy emphasis on material introduced in Weeks 6-12 (which builds on the first 5 weeks)."
+  },
+  {
+    "objectID": "articles/syllabus.html#week-1-problems-with-the-quantitative-status-quo-introduction-to-the-course",
+    "href": "articles/syllabus.html#week-1-problems-with-the-quantitative-status-quo-introduction-to-the-course",
+    "title": "Syllabus",
+    "section": "Week 1: Problems with the Quantitative Status Quo, Introduction to the Course",
+    "text": "Week 1: Problems with the Quantitative Status Quo, Introduction to the Course\nAssigned Reading | Questions & Problems | Slides | Module Quiz\nWeek 1 sets the context for the rest of the course. It provides a sociological and historical overview of how statistical analysis has traditionally been practiced and taught in the social, cognitive, health, and environmental sciences with an emphasis on three major problems: a lack of transparency and reproducibility, an adherence to “Null Hypothesis Significance Testing” (NHST) and other inappropriate approaches, and the uncritical deployment of “statistical golems” (McElreath). In response to these problems, it will introduce three ways we can do better quantitative research, which together make up a kind of “foundational cycle” (Browne 2023):\n\nadopting causal models and making our assumptions explicit;\nemploying prior knowledge, probabilistic thinking, and Bayesian inference to quantify uncertainty and develop generative models for specific research and policy problems; and\nusing best practices for research computing to ensure our work is transparent and reproducible, and that we are accountable for the work we produce.\n\nWe will deepen our knowledge of all three, and their relationships with one another, as the course progresses.\n\nThe Sociology, History, and Philosophy of Statistics in the Sciences\nWhat Wrong with the Quantitative Status Quo?\n\nEthical Science, Statistical Golems, and Null Hypothesis Significance Testing (NHST)\n\nWe Can Do Better (Part 1)!\n\nCausality, Probability, and the Quantification of Uncertainty via Bayesian Inference\n\nOverview of Course Topics, Learning Objectives, and Assessment Methods"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-2-doing-better-quantitative-research",
+    "href": "articles/syllabus.html#week-2-doing-better-quantitative-research",
+    "title": "Syllabus",
+    "section": "Week 2: Doing Better Quantitative Research",
+    "text": "Week 2: Doing Better Quantitative Research\n\n“No causes in, no causes out!” - Nancy Cartwright (1989), Nature’s Capacities and Their Measurement. Oxford: Clarendon Press.\n\n\nWe Can Do Better (Part 2)!\n\nCentring Causality and Uncertainty with Model-based Data Analysis and Bayesian Inference\n\nWhat are models? What is Bayesian Inference?\n\nCounting and the Reallocation of Credibility Across All Possibilities\n\nWhat is Causal Inference?"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-3-getting-started-with-research-computing",
+    "href": "articles/syllabus.html#week-3-getting-started-with-research-computing",
+    "title": "Syllabus",
+    "section": "Week 3: Getting Started with Research Computing",
+    "text": "Week 3: Getting Started with Research Computing\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nPython for Modelling and Quantitative Data Analysis\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-4-thinking-through-causal-models",
+    "href": "articles/syllabus.html#week-4-thinking-through-causal-models",
+    "title": "Syllabus",
+    "section": "Week 4: Thinking Through (Causal) Models",
+    "text": "Week 4: Thinking Through (Causal) Models\n\nConceptual Causal Models Come First, Statistical Models Come Second\nMaking Our Assumptions Explicit (Part 1): Graphical Models\nPlanning and Simulating an Analysis; Iterative Analysis\nMeasurement; Latent Spaces, Factors, and Variables"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-5-thinking-probabilistically",
+    "href": "articles/syllabus.html#week-5-thinking-probabilistically",
+    "title": "Syllabus",
+    "section": "Week 5: Thinking Probabilistically",
+    "text": "Week 5: Thinking Probabilistically\n\nIntroduction to Probabilistic Programming with Python\nWorking with Probability Distributions; Random Variables and Modular Building Blocks\nMarginal, Joint, and Conditional Probability\nMaking Our Assumptions Explicit (Part 2): Model Notation"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-5-uncertainty-sampling-and-the-reallocation-of-credibility",
+    "href": "articles/syllabus.html#week-5-uncertainty-sampling-and-the-reallocation-of-credibility",
+    "title": "Syllabus",
+    "section": "Week 5: Uncertainty, Sampling, and the (Re)allocation of Credibility",
+    "text": "Week 5: Uncertainty, Sampling, and the (Re)allocation of Credibility\n\nManaging Expectations: Parameter Space, Priors, and Posterior Probability\nExploring Parameter Space: Approximate Inference with Grids and Samplers\nUnderstanding and Using MCMC Sampling with Python’s PyMC"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-6-linear-regression",
+    "href": "articles/syllabus.html#week-6-linear-regression",
+    "title": "Syllabus",
+    "section": "Week 6: Linear Regression",
+    "text": "Week 6: Linear Regression\n\nIntroduction to Linear Models\nSimulation and Prior Predictive Checks\nConditioning a Model with Empirical Data\nIdentifying, Diagnosing, and Fixing Problems\nKruschke Diagrams"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-7-multiple-regression",
+    "href": "articles/syllabus.html#week-7-multiple-regression",
+    "title": "Syllabus",
+    "section": "Week 7: Multiple Regression",
+    "text": "Week 7: Multiple Regression\n\nIntroduction to Multiple Regression\nIdentifying, Diagnosing, and Fixing Problems\nMaking Sense of Interactions\nInterpreting and Communicating Results"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-8-heterogeneity-clustering-and-hierarchical-regression",
+    "href": "articles/syllabus.html#week-8-heterogeneity-clustering-and-hierarchical-regression",
+    "title": "Syllabus",
+    "section": "Week 8: Heterogeneity, Clustering, and Hierarchical Regression",
+    "text": "Week 8: Heterogeneity, Clustering, and Hierarchical Regression\n\nIntroduction to Multi-level / Hierarchical Regression\nIdentifying, Diagnosing, and Fixing Problems\nInterpreting and Communicating Results\nMultiple Models, Model Comparison"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-9-going-further-with-and-beyond-linear-models",
+    "href": "articles/syllabus.html#week-9-going-further-with-and-beyond-linear-models",
+    "title": "Syllabus",
+    "section": "Week 9: Going Further With, and Beyond, Linear Models",
+    "text": "Week 9: Going Further With, and Beyond, Linear Models\n\nMeasurement Error and Missing Data\nGoing Further with (Generalized) Linear Models\n\nLogistic, Binomial, Poisson Regression\n\nGoing Beyond Linear Models\n\nText as Data, Networks, and Agent-based Simulation"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-10-text-as-data",
+    "href": "articles/syllabus.html#week-10-text-as-data",
+    "title": "Syllabus",
+    "section": "Week 10: Text as Data",
+    "text": "Week 10: Text as Data\n\nIntroduction to Text as Data, Speech Recognition, and Natural Language Processing\nGenerative Text Summarization and Topic Models\nEmotion Concepts and Sentiment Analysis"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-11-social-cultural-political-networks",
+    "href": "articles/syllabus.html#week-11-social-cultural-political-networks",
+    "title": "Syllabus",
+    "section": "Week 11: (Social, Cultural, Political) Networks",
+    "text": "Week 11: (Social, Cultural, Political) Networks\n\nIntroduction to (Social, Cultural, Political) Networks\nNetwork Structure and Positional Analysis / Stochastic Blockmodels with Python’s networkx and graph-tool\nSocial Embeddings, Centrality, and Power"
+  },
+  {
+    "objectID": "articles/syllabus.html#week-12-complexity-and-social-simulations",
+    "href": "articles/syllabus.html#week-12-complexity-and-social-simulations",
+    "title": "Syllabus",
+    "section": "Week 12: Complexity and Social Simulations",
+    "text": "Week 12: Complexity and Social Simulations\n\nSocial Interaction, Network Dynamics, and Agent-based Simulation\nSimulating Social Learning, Influence, and Opinion Dynamics with Python’s mesa"
+  },
+  {
+    "objectID": "articles/syllabus.html#footnotes",
+    "href": "articles/syllabus.html#footnotes",
+    "title": "Syllabus",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWhoa! Bayes? 🙀 This course teaches statistical practice from a Bayesian perspective rather than a classical / Frequentist perspective. Two things are worth considering. First, the statistics wars are over, so we won’t bother with philosophical debates about which paradigm is superior. Both have a place in contemporary science, but I emphasize Bayes because it is revolutionizing many scientific fields (the social sciences included) and is, in my view, better suited to the types of questions and theory that social scientists are interested in, the data we often work with, and the problems we encounter with both. Second, the Bayesian approach is considered by many to be more “advanced” and mathematically challenging. This is true for some approaches to teaching/learning and practicing Bayesian statistics, but that is also true of the classical / Frequentist approach. The good news is that the most challenging parts of Bayesian analysis have been made obsolete thanks to improvements in computing power, which means we can focus on the conceptual aspects of Bayesian modelling and automate inference using modern “probabilistic programming languages.” In this course, we will use Python’s PyMC.↩︎"
   },
   {
     "objectID": "slides/M01/slides-M01.html#in-development",
