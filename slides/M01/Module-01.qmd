@@ -11,7 +11,7 @@ format:
     smaller: true
     scrollable: true
     reference-location: document
-    css: styles.css
+    # css: styles.css
     logo: ../../images/logo.png
     footer: <https://www.johnmclevey.com/data-methods-models/>
 # resources:
