@@ -1,0 +1,100 @@
+---
+title: "Module XXX"
+subtitle: "Module Subtitle Here"
+format:
+  revealjs: 
+    embed-resources: true
+    theme: default
+    slide-number: true
+    chalkboard: false
+    preview-links: auto
+    smaller: true
+    scrollable: true
+    reference-location: document
+    # css: styles.css
+    logo: ../../images/logo.png
+    footer: <https://www.johnmclevey.com/data-methods-models/>
+# resources:
+#   - demo.pdf
+---
+
+## In Development
+
+![](images/everything_is_fine.jpg)
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Documentation
+
+- [Presenations with Quarto](https://quarto.org/docs/presentations/revealjs/)
+- See also basic `reveal.js` stuff, can port over old content.
+- You can have footnotes.^[See how it works?]
+- Another^[Yep.]
+
+# code.
+
+## Highlight Code
+
+See lines 6-8.
+
+```{.python code-line-numbers="6-8"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## Highlight Code
+
+See lines 7 and 9.
+
+```{.python code-line-numbers="7,9"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## Highlight Code
+
+Finally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:
+
+```{.python code-line-numbers="|6|9"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+##
+
+```{python}
+print('Hi...')
+```
+
+##
+
+```{python}
+#| echo: true
+print('Hi...')
+```
