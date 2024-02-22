@@ -62,29 +62,29 @@ website:
       - text: "Slides"
         menu:
           - text: Module 01 Slides (Introduction)
-            href: slides/M01/slides.html
+            href: slides/M01/slides-M01.html
           - text: Module 02 Slides (...)
-            href: slides/slides.html
+            href: slides/M02/slides-M02.html
           - text: Module 03 Slides (...)
-            href: slides/slides.html
+            href: slides/M03/slides-M03.html
           - text: Module 04 Slides (...)
-            href: slides/slides.html
+            href: slides/M04/slides-M04.html
           - text: Module 05 Slides (...)
-            href: slides/slides.html
+            href: slides/M05/slides-M05.html
           - text: Module 06 Slides (...)
-            href: slides/slides.html
+            href: slides/M06/slides-M06.html
           - text: Module 07 Slides (...)
-            href: slides/slides.html
+            href: slides/M07/slides-M07.html
           - text: Module 08 Slides (...)
-            href: slides/slides.html
+            href: slides/M08/slides-M08.html
           - text: Module 09 Slides (...)
-            href: slides/slides.html
+            href: slides/M09/slides-M09.html
           - text: Module 10 Slides (...)
-            href: slides/slides.html
+            href: slides/M10/slides-M10.html
           - text: Module 11 Slides (...)
-            href: slides/slides.html
+            href: slides/M11/slides-M11.html
           - text: Module 12 Slides (...)
-            href: slides/slides.html
+            href: slides/M12/slides-M12.html
       - text: "Additional Resources"
         file: articles/resources.qmd
     right: 
