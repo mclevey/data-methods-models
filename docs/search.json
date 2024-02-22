@@ -176,6 +176,48 @@
     "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
   },
   {
+    "objectID": "slides/M01/Module-01.html#highlight-code",
+    "href": "slides/M01/Module-01.html#highlight-code",
+    "title": "Module XXX",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/M01/Module-01.html#highlight-code-1",
+    "href": "slides/M01/Module-01.html#highlight-code-1",
+    "title": "Module XXX",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/M01/Module-01.html#highlight-code-2",
+    "href": "slides/M01/Module-01.html#highlight-code-2",
+    "title": "Module XXX",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/M01/Module-01.html#section",
+    "href": "slides/M01/Module-01.html#section",
+    "title": "Module XXX",
+    "section": "",
+    "text": "Hi..."
+  },
+  {
+    "objectID": "slides/M01/Module-01.html#section-1",
+    "href": "slides/M01/Module-01.html#section-1",
+    "title": "Module XXX",
+    "section": "",
+    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/M01/Module-01.html#footnotes",
+    "href": "slides/M01/Module-01.html#footnotes",
+    "title": "Module XXX",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSee how it works?\nYep."
+  },
+  {
     "objectID": "slides/M03/Module-03.html#in-development",
     "href": "slides/M03/Module-03.html#in-development",
     "title": "Module 03",
@@ -266,47 +308,5 @@
       "Textbook",
       "References"
     ]
-  },
-  {
-    "objectID": "slides/M01/Module-01.html#footnotes",
-    "href": "slides/M01/Module-01.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M01/Module-01.html#section",
-    "href": "slides/M01/Module-01.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M01/Module-01.html#highlight-code",
-    "href": "slides/M01/Module-01.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M01/Module-01.html#highlight-code-1",
-    "href": "slides/M01/Module-01.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M01/Module-01.html#highlight-code-2",
-    "href": "slides/M01/Module-01.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M01/Module-01.html#section-1",
-    "href": "slides/M01/Module-01.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
   }
 ]
