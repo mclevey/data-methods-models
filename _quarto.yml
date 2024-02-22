@@ -89,7 +89,7 @@ website:
         file: articles/resources.qmd
     right: 
       - text: "License"
-        file: LICENSE.qmd
+        file: LICENSE.md
       - icon: github
         href: https://github.com/mclevey/data-methods-models
         aria-label: GitHub
