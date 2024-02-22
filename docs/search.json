@@ -1,0 +1,270 @@
+[
+  {
+    "objectID": "textbook/index.html",
+    "href": "textbook/index.html",
+    "title": "Data, Methods, and Models",
+    "section": "",
+    "text": "Everything is not fine.",
+    "crumbs": [
+      "Textbook",
+      "Data, Methods, and Models"
+    ]
+  },
+  {
+    "objectID": "textbook/index.html#an-introduction-to-reproducible-quantitative-research-from-a-bayesian-perspective",
+    "href": "textbook/index.html#an-introduction-to-reproducible-quantitative-research-from-a-bayesian-perspective",
+    "title": "Data, Methods, and Models",
+    "section": "An Introduction to Reproducible Quantitative Research from a Bayesian Perspective",
+    "text": "An Introduction to Reproducible Quantitative Research from a Bayesian Perspective\nThis is an open educational resource… / free textbook accompanying my course Data, Methods, and Models.\nMore soon…\n\n\n\nEverything is not fine.",
+    "crumbs": [
+      "Textbook",
+      "Data, Methods, and Models"
+    ]
+  },
+  {
+    "objectID": "textbook/chapters/preface.html",
+    "href": "textbook/chapters/preface.html",
+    "title": "Preface",
+    "section": "",
+    "text": "Preface\nThis is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.",
+    "crumbs": [
+      "Textbook",
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "slides/Module-12.html#in-development",
+    "href": "slides/Module-12.html#in-development",
+    "title": "Module 12",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-12.html#documentation",
+    "href": "slides/Module-12.html#documentation",
+    "title": "Module 12",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Module-10.html#in-development",
+    "href": "slides/Module-10.html#in-development",
+    "title": "Module 10",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-10.html#documentation",
+    "href": "slides/Module-10.html#documentation",
+    "title": "Module 10",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Module-08.html#in-development",
+    "href": "slides/Module-08.html#in-development",
+    "title": "Module 08",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-08.html#documentation",
+    "href": "slides/Module-08.html#documentation",
+    "title": "Module 08",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Module-06.html#in-development",
+    "href": "slides/Module-06.html#in-development",
+    "title": "Module 06",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-06.html#documentation",
+    "href": "slides/Module-06.html#documentation",
+    "title": "Module 06",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Module-04.html#in-development",
+    "href": "slides/Module-04.html#in-development",
+    "title": "Module 04",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-04.html#documentation",
+    "href": "slides/Module-04.html#documentation",
+    "title": "Module 04",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Module-02.html#in-development",
+    "href": "slides/Module-02.html#in-development",
+    "title": "Module 02",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-02.html#documentation",
+    "href": "slides/Module-02.html#documentation",
+    "title": "Module 02",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "FCIT 607 Data, Methods, and Models",
+    "section": "",
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "articles/resources.html",
+    "href": "articles/resources.html",
+    "title": "Additional Resources",
+    "section": "",
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "articles/modules/Module-01.html",
+    "href": "articles/modules/Module-01.html",
+    "title": "Module 01: Introduction",
+    "section": "",
+    "text": "Welcome to the orientation learning module for Data, Methods, and Models!",
+    "crumbs": [
+      "Module 01: Introduction"
+    ]
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "Data, Methods, and Models",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2024 John McLevey\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "articles/about.html",
+    "href": "articles/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About\nComing soon…"
+  },
+  {
+    "objectID": "articles/syllabus.html",
+    "href": "articles/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "slides/Module-01.html#in-development",
+    "href": "slides/Module-01.html#in-development",
+    "title": "Module 01",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-01.html#documentation",
+    "href": "slides/Module-01.html#documentation",
+    "title": "Module 01",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Module-03.html#in-development",
+    "href": "slides/Module-03.html#in-development",
+    "title": "Module 03",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-03.html#documentation",
+    "href": "slides/Module-03.html#documentation",
+    "title": "Module 03",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Module-05.html#in-development",
+    "href": "slides/Module-05.html#in-development",
+    "title": "Module 05",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-05.html#documentation",
+    "href": "slides/Module-05.html#documentation",
+    "title": "Module 05",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Module-07.html#in-development",
+    "href": "slides/Module-07.html#in-development",
+    "title": "Module 07",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-07.html#documentation",
+    "href": "slides/Module-07.html#documentation",
+    "title": "Module 07",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Module-09.html#in-development",
+    "href": "slides/Module-09.html#in-development",
+    "title": "Module 09",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-09.html#documentation",
+    "href": "slides/Module-09.html#documentation",
+    "title": "Module 09",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Module-11.html#in-development",
+    "href": "slides/Module-11.html#in-development",
+    "title": "Module 11",
+    "section": "In Development",
+    "text": "In Development\nComing soon…\nprint(\"hello world!\")"
+  },
+  {
+    "objectID": "slides/Module-11.html#documentation",
+    "href": "slides/Module-11.html#documentation",
+    "title": "Module 11",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "textbook/chapters/introduction.html",
+    "href": "textbook/chapters/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Introduction\nComing soon…",
+    "crumbs": [
+      "Textbook",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "textbook/chapters/references.html",
+    "href": "textbook/chapters/references.html",
+    "title": "References",
+    "section": "",
+    "text": "References",
+    "crumbs": [
+      "Textbook",
+      "References"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+project:
+  type: book
+  output-dir: _book
+  
+book:
+  title: "Data, Methods, and Models"
+  subtitle: "An Introduction to Reproducible Quantitative Research from a Bayesian Perspective"
+  author: "John McLevey"
+  date: "01/01/2024"
+  chapters:
+    - index.qmd
+    - chapters/preface.qmd
+    - chapters/introduction.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrbook
+  epub:
+    cover: ../images/logo.png

@@ -1,0 +1,12 @@
+---
+title: "Module 03: Brief Topic"
+description: "Brief Description..."
+author: "John McLevey"
+opengraph:
+  image: 
+    src: ../images/logo.png
+    alt: "Logo for course website"
+date: "01/01/2024"
+order: 3
+week: "Week 3"
+---

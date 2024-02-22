@@ -1,0 +1,7 @@
+---
+title: "FCIT 607 Data, Methods, and Models"
+description: "An open access graduate-level course in model-based data analysis from a Bayesian perspective."
+title-block-style: none
+---
+
+Coming soon... 

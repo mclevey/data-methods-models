@@ -1,0 +1,10 @@
+![Everything is not fine.](../images/everything_is_fine.jpg){.lightbox}
+
+# Data, Methods, and Models {.unnumbered}
+
+## An Introduction to Reproducible Quantitative Research from a Bayesian Perspective 
+
+This is an open educational resource... / free textbook accompanying my course *Data, Methods, and Models*. 
+
+More soon...
+

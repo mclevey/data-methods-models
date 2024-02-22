@@ -1,0 +1,28 @@
+---
+title: "Module 05"
+subtitle: "Introduction to the Course"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: ../images/logo.png
+    # css: styles.css
+    footer: <https://www.johnmclevey.com/data-methods-models/>
+# resources:
+#   - demo.pdf
+---
+
+## In Development
+
+Coming soon... 
+
+```python
+print("hello world!")
+```
+
+## Documentation
+
+- [Presenations with Quarto](https://quarto.org/docs/presentations/revealjs/)
+- See also basic `reveal.js` stuff, can port over old content.

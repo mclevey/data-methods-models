@@ -1,0 +1,121 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "*.ipynb"
+  output-dir: docs
+  resources:
+    - "images/"
+    - "slides/"
+    - "textbook/book/"
+
+website:
+  site-url: "https://www.johnmclevey.com/data-methods-models/"
+  # google-analytics: # EXAMPLE: "G-3Z3Z3Z3Z3Z3"
+  
+  repo-url: https://github.com/mclevey/data-methods-models
+  repo-actions: [edit, issue]
+
+  open-graph: true
+
+  title: "Data, Methods, and Models"
+  navbar:
+    logo: images/logo.png
+    title: false
+    align: center
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Syllabus"
+        file: articles/syllabus.qmd
+      - text: "Instructor"
+        file: articles/about.qmd
+      - text: "Textbook"
+        file: textbook/index.qmd
+      - text: "Course Modules"
+        menu:
+          - text: Module 01 Overview
+            href: articles/modules/Module-01.qmd
+          - text: Module 02 Overview
+            href: articles/modules/Module-02.qmd
+          - text: Module 03 Overview
+            href: articles/modules/Module-03.qmd
+          - text: Module 04 Overview
+            href: articles/modules/Module-04.qmd
+          - text: Module 05 Overview
+            href: articles/modules/Module-05.qmd
+          - text: Module 06 Overview
+            href: articles/modules/Module-06.qmd
+          - text: Module 07 Overview
+            href: articles/modules/Module-07.qmd
+          - text: Module 08 Overview
+            href: articles/modules/Module-08.qmd
+          - text: Module 09 Overview
+            href: articles/modules/Module-09.qmd
+          - text: Module 10 Overview
+            href: articles/modules/Module-10.qmd
+          - text: Module 11 Overview
+            href: articles/modules/Module-11.qmd
+          - text: Module 12 Overview
+            href: articles/modules/Module-12.qmd
+
+      - text: "Slides"
+        menu:
+          - text: Module 01 Slides - Introduction
+            href: slides/Module-01.html
+          - text: Module 02 Slides - Short Topic
+            href: slides/Module-02.html
+          - text: Module 03 Slides - Short Topic
+            href: slides/Module-03.html
+          - text: Module 04 Slides - Short Topic
+            href: slides/Module-04.html
+          - text: Module 05 Slides - Short Topic
+            href: slides/Module-05.html
+          - text: Module 06 Slides - Short Topic
+            href: slides/Module-06.html
+          - text: Module 07 Slides - Short Topic
+            href: slides/Module-07.html
+          - text: Module 08 Slides - Short Topic
+            href: slides/Module-08.html
+          - text: Module 09 Slides - Short Topic
+            href: slides/Module-09.html
+          - text: Module 10 Slides - Short Topic
+            href: slides/Module-10.html
+          - text: Module 11 Slides - Short Topic
+            href: slides/Module-11.html
+          - text: Module 12 Slides - Short Topic
+            href: slides/Module-12.html
+      - text: "Additional Resources"
+        file: articles/resources.qmd
+    right: 
+      - text: "License"
+        file: LICENSE.qmd
+      - icon: github
+        href: https://github.com/mclevey/data-methods-models
+        aria-label: GitHub
+  sidebar:
+    - title: "Textbook"
+      logo: ../images/cover.png
+      contents:
+        - textbook/index.qmd
+        - textbook/chapters/preface.qmd
+        # - textbook/Reading_Formats.qmd
+        - textbook/chapters/introduction.qmd
+        - textbook/chapters/references.qmd
+    - title: "Learning Modules"
+      logo: images/logo.png
+      contents: articles/modules/*.qmd
+    # - title: "OER"
+    #   logo: images/logo.png
+    #   contents:
+    #     - articles/oer/OER.qmd
+    #     - articles/oer/dev_notes.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
