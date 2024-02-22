@@ -62,29 +62,29 @@ website:
       - text: "Slides"
         menu:
           - text: Module 01 Slides - Introduction
-            href: slides/Module-01.html
-          - text: Module 02 Slides - Short Topic
-            href: slides/Module-02.html
-          - text: Module 03 Slides - Short Topic
-            href: slides/Module-03.html
-          - text: Module 04 Slides - Short Topic
-            href: slides/Module-04.html
-          - text: Module 05 Slides - Short Topic
-            href: slides/Module-05.html
-          - text: Module 06 Slides - Short Topic
-            href: slides/Module-06.html
-          - text: Module 07 Slides - Short Topic
-            href: slides/Module-07.html
-          - text: Module 08 Slides - Short Topic
-            href: slides/Module-08.html
-          - text: Module 09 Slides - Short Topic
-            href: slides/Module-09.html
-          - text: Module 10 Slides - Short Topic
-            href: slides/Module-10.html
-          - text: Module 11 Slides - Short Topic
-            href: slides/Module-11.html
-          - text: Module 12 Slides - Short Topic
-            href: slides/Module-12.html
+            href: slides/M01/Module-01.html
+          # - text: Module 02 Slides - Short Topic
+          #   href: slides/Module-02.html
+          # - text: Module 03 Slides - Short Topic
+          #   href: slides/Module-03.html
+          # - text: Module 04 Slides - Short Topic
+          #   href: slides/Module-04.html
+          # - text: Module 05 Slides - Short Topic
+          #   href: slides/Module-05.html
+          # - text: Module 06 Slides - Short Topic
+          #   href: slides/Module-06.html
+          # - text: Module 07 Slides - Short Topic
+          #   href: slides/Module-07.html
+          # - text: Module 08 Slides - Short Topic
+          #   href: slides/Module-08.html
+          # - text: Module 09 Slides - Short Topic
+          #   href: slides/Module-09.html
+          # - text: Module 10 Slides - Short Topic
+          #   href: slides/Module-10.html
+          # - text: Module 11 Slides - Short Topic
+          #   href: slides/Module-11.html
+          # - text: Module 12 Slides - Short Topic
+          #   href: slides/Module-12.html
       - text: "Additional Resources"
         file: articles/resources.qmd
     right: 
