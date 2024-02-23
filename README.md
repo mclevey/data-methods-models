@@ -1,2 +1,5 @@
-# data-methods-models
-Materials for my graduate course "Data, Methods, and Models" in the UW MFC Program
+# Work in Progress
+
+Slowly moving my course content over to Quarto sites and developing more open educational resources. 
+
+More soon. 
