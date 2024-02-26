@@ -8,7 +8,7 @@
 
 <meta name="description" content="An open access graduate-level course in model-based data analysis from a Bayesian perspective.">
 
-<title>Data, Methods, and Models - FCIT 607 Data, Methods, and Models</title>
+<title>Data, Methods, and Models - Data, Methods, and Models for Future Cities</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,12 +73,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Data, Methods, and Models - FCIT 607 Data, Methods, and Models">
+<meta property="og:title" content="Data, Methods, and Models - Data, Methods, and Models for Future Cities">
 <meta property="og:description" content="An open access graduate-level course in model-based data analysis from a Bayesian perspective.">
 <meta property="og:site_name" content="Data, Methods, and Models">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -97,69 +100,73 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/syllabus.html"> 
+    <a class="nav-link" href="./pages/syllabus.html"> 
 <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/about.html"> 
+    <a class="nav-link" href="./pages/about.html"> 
 <span class="menu-text">Instructor</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./textbook/index.html"> 
 <span class="menu-text">Textbook</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./pages/software.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-course-modules" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Course Modules</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-modules" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Modules</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-course-modules">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-modules">    
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-01.html">
- <span class="dropdown-text">Module 01 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-01.html">
+ <span class="dropdown-text">Module 01 (Introduction)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-02.html">
- <span class="dropdown-text">Module 02 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-02.html">
+ <span class="dropdown-text">Module 02 (Scientific Computing)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-03.html">
- <span class="dropdown-text">Module 03 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-03.html">
+ <span class="dropdown-text">Module 03 (Causal and Generative Models)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-04.html">
- <span class="dropdown-text">Module 04 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-04.html">
+ <span class="dropdown-text">Module 04 (Probabilistic Programming)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-05.html">
- <span class="dropdown-text">Module 05 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-05.html">
+ <span class="dropdown-text">Module 05 (Quantifying Uncertainty and Reallocating Credibility)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-06.html">
- <span class="dropdown-text">Module 06 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-06.html">
+ <span class="dropdown-text">Module 06 (Making Sense of Stochastic Sampling)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-07.html">
- <span class="dropdown-text">Module 07 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-07.html">
+ <span class="dropdown-text">Module 07 (Linear Models)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-08.html">
- <span class="dropdown-text">Module 08 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-08.html">
+ <span class="dropdown-text">Module 08 (Hierarchical Regression)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-09.html">
- <span class="dropdown-text">Module 09 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-09.html">
+ <span class="dropdown-text">Module 09 (Measurement Error, Missing Data, and Generalized Linear Models)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-10.html">
- <span class="dropdown-text">Module 10 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-10.html">
+ <span class="dropdown-text">Module 10 (Modelling Network Structure and Dynamics)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-11.html">
- <span class="dropdown-text">Module 11 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-11.html">
+ <span class="dropdown-text">Module 11 (Complex Systems and Agent-Based Models)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./articles/modules/Module-12.html">
- <span class="dropdown-text">Module 12 Overview</span></a>
+    <a class="dropdown-item" href="./modules/Module-12.html">
+ <span class="dropdown-text">Module 12 (Conclusion)</span></a>
   </li>  
     </ul>
   </li>
@@ -169,57 +176,57 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
         <li>
-    <a class="dropdown-item" href="./slides/M01/slides-M01.html">
+    <a class="dropdown-item" href="./slides/Slides-01.html">
  <span class="dropdown-text">Module 01 Slides (Introduction)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M02/slides-M02.html">
- <span class="dropdown-text">Module 02 Slides (…)</span></a>
+    <a class="dropdown-item" href="./slides/Slides-02.html">
+ <span class="dropdown-text">Module 02 Slides (Research Computing)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M03/slides-M03.html">
+    <a class="dropdown-item" href="./slides/Slides-03.html">
  <span class="dropdown-text">Module 03 Slides (…)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M04/slides-M04.html">
+    <a class="dropdown-item" href="./slides/Slides-04.html">
  <span class="dropdown-text">Module 04 Slides (…)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M05/slides-M05.html">
+    <a class="dropdown-item" href="./slides/Slides-05.html">
  <span class="dropdown-text">Module 05 Slides (…)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M06/slides-M06.html">
+    <a class="dropdown-item" href="./slides/Slides-06.html">
  <span class="dropdown-text">Module 06 Slides (…)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M07/slides-M07.html">
+    <a class="dropdown-item" href="./slides/Slides-07.html">
  <span class="dropdown-text">Module 07 Slides (…)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M08/slides-M08.html">
+    <a class="dropdown-item" href="./slides/Slides-08.html">
  <span class="dropdown-text">Module 08 Slides (…)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M09/slides-M09.html">
+    <a class="dropdown-item" href="./slides/Slides-09.html">
  <span class="dropdown-text">Module 09 Slides (…)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M10/slides-M10.html">
+    <a class="dropdown-item" href="./slides/Slides-10.html">
  <span class="dropdown-text">Module 10 Slides (…)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M11/slides-M11.html">
+    <a class="dropdown-item" href="./slides/Slides-11.html">
  <span class="dropdown-text">Module 11 Slides (…)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./slides/M12/slides-M12.html">
+    <a class="dropdown-item" href="./slides/Slides-12.html">
  <span class="dropdown-text">Module 12 Slides (…)</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./articles/resources.html"> 
+    <a class="nav-link" href="./pages/resources.html"> 
 <span class="menu-text">Additional Resources</span></a>
   </li>  
 </ul>
@@ -244,29 +251,56 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#what-is-mfc-and-fcit" id="toc-what-is-mfc-and-fcit" class="nav-link active" data-scroll-target="#what-is-mfc-and-fcit">What is MFC and FCIT?</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/mclevey/data-methods-models/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mclevey/data-methods-models/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">FCIT 607 Data, Methods, and Models</h1>
+<h1 class="title display-7">Data, Methods, and Models for Future Cities</h1>
 
 </header>
 
 
-<p>Coming soon…</p>
-<section id="what-is-mfc-and-fcit" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-mfc-and-fcit">What is MFC and FCIT?</h2>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[30, 70], [100]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/Michael-Betancourt-Probabilistic-Programming.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="(Image from Michael Betancourt.)"><img src="images/Michael-Betancourt-Probabilistic-Programming.png" class="img-fluid figure-img" alt="(Image from Michael Betancourt.)"></a></p>
+<figcaption>(Image from Michael Betancourt.)</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
+<p>Welcome to the course website for FCIT 607: Data, Methods, and Models for Future Cities! This couse is a graduate-level introduction to reproducible research, modelling, and quantitative data analysis with an emphasis on causal, probabilistic, and futures thinking. It’s part of the <a href="https://uwaterloo.ca/environment/graduate/future-graduate-students/programs/master-future-cities?utm_source=envgradgoogleads&amp;utm_medium=cpc&amp;utm_id=4119&amp;gad_source=1&amp;gclid=Cj0KCQiAxOauBhCaARIsAEbUSQSj4EocKfVTTNc6pCwICYJRndRkEXXvTElfnG4gFBuPJLaQ8T-0eu8aApMzEALw_wcB">Master of Future Cities (MFC)</a> program offered by the <a href="https://uwaterloo.ca/environment/">Faculty of Environment</a> at the <a href="https://uwaterloo.ca">University of Waterloo</a>. You can access all course materials on this site <a href="https://en.wikipedia.org/wiki/Open_educational_resources">for free</a>, including the course syllabus, overviews of each learning module, lecture slides, and an open access textbook (<em>currently in draft form</em>).</p>
+</div>
+</div>
+</div>
+<p>You can learn a bit more about me and my approach to teaching modelling and quantiative data analysis <a href="./pages/about.html">here</a>.</p>
+<section id="the-master-of-future-cities-mfc-program" class="level2">
+<h2 class="anchored" data-anchor-id="the-master-of-future-cities-mfc-program">The Master of Future Cities (MFC) Program</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The Future is Unknown
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>“The traditional approaches to studying, planning, managing, and visioning our cities are arguably struggling to address our challenges today and lack the capacity to critically explore and develop alternatives for a future city. There is need to move beyond the silos within cities and disciplinary boundaries to foster multidisciplinary and transdisciplinary thinking applied to urban challenges and futures.”</p>
+<p><strong>Learn more about the program <a href="https://uwaterloo.ca/environment/graduate/future-graduate-students/programs/master-future-cities?utm_source=envgradgoogleads&amp;utm_medium=cpc&amp;utm_id=4119&amp;gad_source=1&amp;gclid=Cj0KCQiAxOauBhCaARIsAEbUSQSj4EocKfVTTNc6pCwICYJRndRkEXXvTElfnG4gFBuPJLaQ8T-0eu8aApMzEALw_wcB">here</a>.</strong></p>
+</div>
+</div>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">(Image from Michael Betancourt.)</span>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -658,8 +692,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/mclevey/data-methods-models/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mclevey/data-methods-models/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/mclevey/data-methods-models/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/mclevey/data-methods-models/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mclevey/data-methods-models/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>

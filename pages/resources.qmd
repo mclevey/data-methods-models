@@ -1,0 +1,28 @@
+---
+title: Additional Resources
+author: John McLevey
+bibliography: ../textbook/references.bib
+---
+
+Coming soon...
+
+<!-- 
+## Quarto
+
+### More Beautiful Presentations with Quarto + Reveal.js
+
+- [Emil Hvitfeldt](https://emilhvitfeldt.com)'s "*Slidecraft 101*" blog series and/or [talk at R Conference](https://www.youtube.com/watch?v=SAi8-P49F2Y).
+    - [Colors and Fonts](https://emilhvitfeldt.com/post/slidecraft-colors-fonts/)
+    - [Code and Output](https://emilhvitfeldt.com/post/slidecraft-code-output/)
+    - [Theme Variants](https://emilhvitfeldt.com/post/slidecraft-theme-variants/)
+    - [Advanced Slide Themes](https://emilhvitfeldt.com/post/slidecraft-scss-themes/)
+    - [7 Tips and Tricks](https://emilhvitfeldt.com/post/slidecraft-7-tips-and-tricks/)
+    - [Layout](https://emilhvitfeldt.com/post/slidecraft-layout/)
+
+## Bayesian Modelling & Data Analysis 
+
+- @johnson2022bayes, [Bayes Rules! An Introduction to Applied Bayesian Modelling](https://www.bayesrulesbook.com)
+- Betancourt's [draft manuscript on probabilistic modelling with `stan`](https://betanalpha.github.io/writing/)
+- @poldrack2024statistical, [Statistical Thinking for the 21st Century](https://statsthinking21.github.io/statsthinking21-core-site/) and the [Python Companion](https://statsthinking21.github.io/statsthinking21-python/).
+
+## References -->

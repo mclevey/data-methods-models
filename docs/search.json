@@ -2,892 +2,1194 @@
   {
     "objectID": "textbook/index.html",
     "href": "textbook/index.html",
-    "title": "Data, Methods, and Models",
-    "section": "",
-    "text": "Everything is not fine.",
-    "crumbs": [
-      "Textbook",
-      "Data, Methods, and Models"
-    ]
-  },
-  {
-    "objectID": "textbook/index.html#an-introduction-to-reproducible-quantitative-research-from-a-bayesian-perspective",
-    "href": "textbook/index.html#an-introduction-to-reproducible-quantitative-research-from-a-bayesian-perspective",
-    "title": "Data, Methods, and Models",
-    "section": "An Introduction to Reproducible Quantitative Research from a Bayesian Perspective",
-    "text": "An Introduction to Reproducible Quantitative Research from a Bayesian Perspective\nThis is an open educational resource… / free textbook accompanying my course Data, Methods, and Models.\nMore soon…\n\n\n\nEverything is not fine.",
-    "crumbs": [
-      "Textbook",
-      "Data, Methods, and Models"
-    ]
-  },
-  {
-    "objectID": "textbook/chapters/preface.html",
-    "href": "textbook/chapters/preface.html",
     "title": "Preface",
     "section": "",
-    "text": "Preface\nThis is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.",
+    "text": "Preface\n\nConnection to @mclevey2022doing…\n\n\n\n\n\n\n\nThis is a Manuscript in Progress\n\n\n\n\nWhat to expect\n\nHow to give feedback\n\n\n\n\n\n\nEverything is not fine with the way we teach and practice statistics in the sciences. We can all do better.\n\n\n\n\n\nEverything is not fine with the way we teach and practice statistics in the sciences. We can all do better.",
     "crumbs": [
       "Textbook",
       "Preface"
     ]
   },
   {
-    "objectID": "slides/M12/slides-M12.html#in-development",
-    "href": "slides/M12/slides-M12.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M12/slides-M12.html#documentation",
-    "href": "slides/M12/slides-M12.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M12/slides-M12.html#highlight-code",
-    "href": "slides/M12/slides-M12.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M12/slides-M12.html#highlight-code-1",
-    "href": "slides/M12/slides-M12.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M12/slides-M12.html#highlight-code-2",
-    "href": "slides/M12/slides-M12.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M12/slides-M12.html#section",
-    "href": "slides/M12/slides-M12.html#section",
-    "title": "Module XXX",
+    "objectID": "textbook/chapters/8-hierarchical-regression.html",
+    "href": "textbook/chapters/8-hierarchical-regression.html",
+    "title": "Hierarchical Regression",
     "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M12/slides-M12.html#section-1",
-    "href": "slides/M12/slides-M12.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M12/slides-M12.html#footnotes",
-    "href": "slides/M12/slides-M12.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M10/slides-M10.html#in-development",
-    "href": "slides/M10/slides-M10.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M10/slides-M10.html#documentation",
-    "href": "slides/M10/slides-M10.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M10/slides-M10.html#highlight-code",
-    "href": "slides/M10/slides-M10.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M10/slides-M10.html#highlight-code-1",
-    "href": "slides/M10/slides-M10.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M10/slides-M10.html#highlight-code-2",
-    "href": "slides/M10/slides-M10.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M10/slides-M10.html#section",
-    "href": "slides/M10/slides-M10.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M10/slides-M10.html#section-1",
-    "href": "slides/M10/slides-M10.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M10/slides-M10.html#footnotes",
-    "href": "slides/M10/slides-M10.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M08/slides-M08.html#in-development",
-    "href": "slides/M08/slides-M08.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M08/slides-M08.html#documentation",
-    "href": "slides/M08/slides-M08.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M08/slides-M08.html#highlight-code",
-    "href": "slides/M08/slides-M08.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M08/slides-M08.html#highlight-code-1",
-    "href": "slides/M08/slides-M08.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M08/slides-M08.html#highlight-code-2",
-    "href": "slides/M08/slides-M08.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M08/slides-M08.html#section",
-    "href": "slides/M08/slides-M08.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M08/slides-M08.html#section-1",
-    "href": "slides/M08/slides-M08.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M08/slides-M08.html#footnotes",
-    "href": "slides/M08/slides-M08.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M06/slides-M06.html#in-development",
-    "href": "slides/M06/slides-M06.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M06/slides-M06.html#documentation",
-    "href": "slides/M06/slides-M06.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M06/slides-M06.html#highlight-code",
-    "href": "slides/M06/slides-M06.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M06/slides-M06.html#highlight-code-1",
-    "href": "slides/M06/slides-M06.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M06/slides-M06.html#highlight-code-2",
-    "href": "slides/M06/slides-M06.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M06/slides-M06.html#section",
-    "href": "slides/M06/slides-M06.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M06/slides-M06.html#section-1",
-    "href": "slides/M06/slides-M06.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M06/slides-M06.html#footnotes",
-    "href": "slides/M06/slides-M06.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M04/slides-M04.html#in-development",
-    "href": "slides/M04/slides-M04.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M04/slides-M04.html#documentation",
-    "href": "slides/M04/slides-M04.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M04/slides-M04.html#highlight-code",
-    "href": "slides/M04/slides-M04.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M04/slides-M04.html#highlight-code-1",
-    "href": "slides/M04/slides-M04.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M04/slides-M04.html#highlight-code-2",
-    "href": "slides/M04/slides-M04.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M04/slides-M04.html#section",
-    "href": "slides/M04/slides-M04.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M04/slides-M04.html#section-1",
-    "href": "slides/M04/slides-M04.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M04/slides-M04.html#footnotes",
-    "href": "slides/M04/slides-M04.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M02/slides-M02.html#in-development",
-    "href": "slides/M02/slides-M02.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M02/slides-M02.html#documentation",
-    "href": "slides/M02/slides-M02.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M02/slides-M02.html#highlight-code",
-    "href": "slides/M02/slides-M02.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M02/slides-M02.html#highlight-code-1",
-    "href": "slides/M02/slides-M02.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M02/slides-M02.html#highlight-code-2",
-    "href": "slides/M02/slides-M02.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M02/slides-M02.html#section",
-    "href": "slides/M02/slides-M02.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M02/slides-M02.html#section-1",
-    "href": "slides/M02/slides-M02.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M02/slides-M02.html#footnotes",
-    "href": "slides/M02/slides-M02.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "FCIT 607 Data, Methods, and Models",
-    "section": "",
-    "text": "Coming soon…"
-  },
-  {
-    "objectID": "index.html#what-is-mfc-and-fcit",
-    "href": "index.html#what-is-mfc-and-fcit",
-    "title": "FCIT 607 Data, Methods, and Models",
-    "section": "What is MFC and FCIT?",
-    "text": "What is MFC and FCIT?"
-  },
-  {
-    "objectID": "articles/resources.html",
-    "href": "articles/resources.html",
-    "title": "Additional Resources",
-    "section": "",
-    "text": "Coming soon…"
-  },
-  {
-    "objectID": "articles/modules/Module-01.html",
-    "href": "articles/modules/Module-01.html",
-    "title": "Module 01: Introduction",
-    "section": "",
-    "text": "Welcome to the orientation learning module for Data, Methods, and Models!",
+    "text": "Coming soon…",
     "crumbs": [
-      "Module 01: Introduction"
+      "Textbook",
+      "Hierarchical Regression"
     ]
   },
   {
-    "objectID": "articles/about.html",
-    "href": "articles/about.html",
-    "title": "About",
+    "objectID": "textbook/chapters/6-stochastic-sampling.html",
+    "href": "textbook/chapters/6-stochastic-sampling.html",
+    "title": "Automating Inference via Stochastic Sampling",
     "section": "",
-    "text": "About\nComing soon…"
+    "text": "Coming soon…",
+    "crumbs": [
+      "Textbook",
+      "Automating Inference via Stochastic Sampling"
+    ]
   },
   {
-    "objectID": "articles/syllabus.html",
-    "href": "articles/syllabus.html",
-    "title": "Syllabus",
+    "objectID": "textbook/chapters/4-probabilistic-programming.html",
+    "href": "textbook/chapters/4-probabilistic-programming.html",
+    "title": "Foundations of Probabilistic Programming",
     "section": "",
-    "text": "#todo Old syllabus draft needs to be revised and refactored for the new course site, etc.\nDr. John McLevey (he/him)\nKnowledge Integration, Sociology & Legal Studies\nUniversity of Waterloo (Waterloo, ON, Canada)\njohn.mclevey@uwaterloo.ca"
+    "text": "Coming soon…",
+    "crumbs": [
+      "Textbook",
+      "Foundations of Probabilistic Programming"
+    ]
   },
   {
-    "objectID": "articles/syllabus.html#weekly-online-quizzes-30",
-    "href": "articles/syllabus.html#weekly-online-quizzes-30",
-    "title": "Syllabus",
-    "section": "Weekly Online Quizzes (30%)",
-    "text": "Weekly Online Quizzes (30%)\nStarting in Week 2, there will be a short online quiz consisting of ~ 10 multiple choice or true/false questions every week. These quizzes will cover content from the previous week and are intended to help you stay on track (course content is cumulative) and learn more deeply by practicing two evidence-based learning strategies: spaced repetition and retrieval. There are 11 quizzes in total. I will automatically drop your lowest grade. The remaining 10 quizzes are worth 3% each."
-  },
-  {
-    "objectID": "articles/syllabus.html#weekly-problems-20",
-    "href": "articles/syllabus.html#weekly-problems-20",
-    "title": "Syllabus",
-    "section": "Weekly Problems (20%)",
-    "text": "Weekly Problems (20%)\n\n“The one who does the work does the learning.” - Todd Zakrajsek (2022), The New Science of Learning: How to Learn in Harmony with Your Brain. Routledge.\n\nEach assigned reading ends with a set of questions and/or problems to help you develop foundational skills and learn the content more deeply. You must complete at least 2 questions / problems and upload your work to the appropriate Dropbox on Learn. You will receive a “pass” for any reasonable attempt."
-  },
-  {
-    "objectID": "articles/syllabus.html#midterm-20-and-final-exam-30",
-    "href": "articles/syllabus.html#midterm-20-and-final-exam-30",
-    "title": "Syllabus",
-    "section": "Midterm (20%) and Final Exam (30%)",
-    "text": "Midterm (20%) and Final Exam (30%)\nThere will be an in-class midterm exam in Week 6, testing course material from Weeks 1-5. The final exam will cover content from the entire course, but with a heavy emphasis on material introduced in Weeks 6-12 (which builds on the first 5 weeks)."
-  },
-  {
-    "objectID": "articles/syllabus.html#week-1-problems-with-the-quantitative-status-quo-introduction-to-the-course",
-    "href": "articles/syllabus.html#week-1-problems-with-the-quantitative-status-quo-introduction-to-the-course",
-    "title": "Syllabus",
-    "section": "Week 1: Problems with the Quantitative Status Quo, Introduction to the Course",
-    "text": "Week 1: Problems with the Quantitative Status Quo, Introduction to the Course\nAssigned Reading | Questions & Problems | Slides | Module Quiz\nWeek 1 sets the context for the rest of the course. It provides a sociological and historical overview of how statistical analysis has traditionally been practiced and taught in the social, cognitive, health, and environmental sciences with an emphasis on three major problems: a lack of transparency and reproducibility, an adherence to “Null Hypothesis Significance Testing” (NHST) and other inappropriate approaches, and the uncritical deployment of “statistical golems” (McElreath). In response to these problems, it will introduce three ways we can do better quantitative research, which together make up a kind of “foundational cycle” (Browne 2023):\n\nadopting causal models and making our assumptions explicit;\nemploying prior knowledge, probabilistic thinking, and Bayesian inference to quantify uncertainty and develop generative models for specific research and policy problems; and\nusing best practices for research computing to ensure our work is transparent and reproducible, and that we are accountable for the work we produce.\n\nWe will deepen our knowledge of all three, and their relationships with one another, as the course progresses.\n\nThe Sociology, History, and Philosophy of Statistics in the Sciences\nWhat Wrong with the Quantitative Status Quo?\n\nEthical Science, Statistical Golems, and Null Hypothesis Significance Testing (NHST)\n\nWe Can Do Better (Part 1)!\n\nCausality, Probability, and the Quantification of Uncertainty via Bayesian Inference\n\nOverview of Course Topics, Learning Objectives, and Assessment Methods"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-2-doing-better-quantitative-research",
-    "href": "articles/syllabus.html#week-2-doing-better-quantitative-research",
-    "title": "Syllabus",
-    "section": "Week 2: Doing Better Quantitative Research",
-    "text": "Week 2: Doing Better Quantitative Research\n\n“No causes in, no causes out!” - Nancy Cartwright (1989), Nature’s Capacities and Their Measurement. Oxford: Clarendon Press.\n\n\nWe Can Do Better (Part 2)!\n\nCentring Causality and Uncertainty with Model-based Data Analysis and Bayesian Inference\n\nWhat are models? What is Bayesian Inference?\n\nCounting and the Reallocation of Credibility Across All Possibilities\n\nWhat is Causal Inference?"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-3-getting-started-with-research-computing",
-    "href": "articles/syllabus.html#week-3-getting-started-with-research-computing",
-    "title": "Syllabus",
-    "section": "Week 3: Getting Started with Research Computing",
-    "text": "Week 3: Getting Started with Research Computing\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nPython for Modelling and Quantitative Data Analysis\nBasics of Data Summary and Visualization with Python"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-4-thinking-through-causal-models",
-    "href": "articles/syllabus.html#week-4-thinking-through-causal-models",
-    "title": "Syllabus",
-    "section": "Week 4: Thinking Through (Causal) Models",
-    "text": "Week 4: Thinking Through (Causal) Models\n\nConceptual Causal Models Come First, Statistical Models Come Second\nMaking Our Assumptions Explicit (Part 1): Graphical Models\nPlanning and Simulating an Analysis; Iterative Analysis\nMeasurement; Latent Spaces, Factors, and Variables"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-5-thinking-probabilistically",
-    "href": "articles/syllabus.html#week-5-thinking-probabilistically",
-    "title": "Syllabus",
-    "section": "Week 5: Thinking Probabilistically",
-    "text": "Week 5: Thinking Probabilistically\n\nIntroduction to Probabilistic Programming with Python\nWorking with Probability Distributions; Random Variables and Modular Building Blocks\nMarginal, Joint, and Conditional Probability\nMaking Our Assumptions Explicit (Part 2): Model Notation"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-5-uncertainty-sampling-and-the-reallocation-of-credibility",
-    "href": "articles/syllabus.html#week-5-uncertainty-sampling-and-the-reallocation-of-credibility",
-    "title": "Syllabus",
-    "section": "Week 5: Uncertainty, Sampling, and the (Re)allocation of Credibility",
-    "text": "Week 5: Uncertainty, Sampling, and the (Re)allocation of Credibility\n\nManaging Expectations: Parameter Space, Priors, and Posterior Probability\nExploring Parameter Space: Approximate Inference with Grids and Samplers\nUnderstanding and Using MCMC Sampling with Python’s PyMC"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-6-linear-regression",
-    "href": "articles/syllabus.html#week-6-linear-regression",
-    "title": "Syllabus",
-    "section": "Week 6: Linear Regression",
-    "text": "Week 6: Linear Regression\n\nIntroduction to Linear Models\nSimulation and Prior Predictive Checks\nConditioning a Model with Empirical Data\nIdentifying, Diagnosing, and Fixing Problems\nKruschke Diagrams"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-7-multiple-regression",
-    "href": "articles/syllabus.html#week-7-multiple-regression",
-    "title": "Syllabus",
-    "section": "Week 7: Multiple Regression",
-    "text": "Week 7: Multiple Regression\n\nIntroduction to Multiple Regression\nIdentifying, Diagnosing, and Fixing Problems\nMaking Sense of Interactions\nInterpreting and Communicating Results"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-8-heterogeneity-clustering-and-hierarchical-regression",
-    "href": "articles/syllabus.html#week-8-heterogeneity-clustering-and-hierarchical-regression",
-    "title": "Syllabus",
-    "section": "Week 8: Heterogeneity, Clustering, and Hierarchical Regression",
-    "text": "Week 8: Heterogeneity, Clustering, and Hierarchical Regression\n\nIntroduction to Multi-level / Hierarchical Regression\nIdentifying, Diagnosing, and Fixing Problems\nInterpreting and Communicating Results\nMultiple Models, Model Comparison"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-9-going-further-with-and-beyond-linear-models",
-    "href": "articles/syllabus.html#week-9-going-further-with-and-beyond-linear-models",
-    "title": "Syllabus",
-    "section": "Week 9: Going Further With, and Beyond, Linear Models",
-    "text": "Week 9: Going Further With, and Beyond, Linear Models\n\nMeasurement Error and Missing Data\nGoing Further with (Generalized) Linear Models\n\nLogistic, Binomial, Poisson Regression\n\nGoing Beyond Linear Models\n\nText as Data, Networks, and Agent-based Simulation"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-10-text-as-data",
-    "href": "articles/syllabus.html#week-10-text-as-data",
-    "title": "Syllabus",
-    "section": "Week 10: Text as Data",
-    "text": "Week 10: Text as Data\n\nIntroduction to Text as Data, Speech Recognition, and Natural Language Processing\nGenerative Text Summarization and Topic Models\nEmotion Concepts and Sentiment Analysis"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-11-social-cultural-political-networks",
-    "href": "articles/syllabus.html#week-11-social-cultural-political-networks",
-    "title": "Syllabus",
-    "section": "Week 11: (Social, Cultural, Political) Networks",
-    "text": "Week 11: (Social, Cultural, Political) Networks\n\nIntroduction to (Social, Cultural, Political) Networks\nNetwork Structure and Positional Analysis / Stochastic Blockmodels with Python’s networkx and graph-tool\nSocial Embeddings, Centrality, and Power"
-  },
-  {
-    "objectID": "articles/syllabus.html#week-12-complexity-and-social-simulations",
-    "href": "articles/syllabus.html#week-12-complexity-and-social-simulations",
-    "title": "Syllabus",
-    "section": "Week 12: Complexity and Social Simulations",
-    "text": "Week 12: Complexity and Social Simulations\n\nSocial Interaction, Network Dynamics, and Agent-based Simulation\nSimulating Social Learning, Influence, and Opinion Dynamics with Python’s mesa"
-  },
-  {
-    "objectID": "articles/syllabus.html#footnotes",
-    "href": "articles/syllabus.html#footnotes",
-    "title": "Syllabus",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nWhoa! Bayes? 🙀 This course teaches statistical practice from a Bayesian perspective rather than a classical / Frequentist perspective. Two things are worth considering. First, the statistics wars are over, so we won’t bother with philosophical debates about which paradigm is superior. Both have a place in contemporary science, but I emphasize Bayes because it is revolutionizing many scientific fields (the social sciences included) and is, in my view, better suited to the types of questions and theory that social scientists are interested in, the data we often work with, and the problems we encounter with both. Second, the Bayesian approach is considered by many to be more “advanced” and mathematically challenging. This is true for some approaches to teaching/learning and practicing Bayesian statistics, but that is also true of the classical / Frequentist approach. The good news is that the most challenging parts of Bayesian analysis have been made obsolete thanks to improvements in computing power, which means we can focus on the conceptual aspects of Bayesian modelling and automate inference using modern “probabilistic programming languages.” In this course, we will use Python’s PyMC.↩︎"
-  },
-  {
-    "objectID": "slides/M01/slides-M01.html#in-development",
-    "href": "slides/M01/slides-M01.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M01/slides-M01.html#documentation",
-    "href": "slides/M01/slides-M01.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M01/slides-M01.html#highlight-code",
-    "href": "slides/M01/slides-M01.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M01/slides-M01.html#highlight-code-1",
-    "href": "slides/M01/slides-M01.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M01/slides-M01.html#highlight-code-2",
-    "href": "slides/M01/slides-M01.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M01/slides-M01.html#section",
-    "href": "slides/M01/slides-M01.html#section",
-    "title": "Module XXX",
+    "objectID": "textbook/chapters/2-computing.html",
+    "href": "textbook/chapters/2-computing.html",
+    "title": "Scientific Computing and Reproducible Research",
     "section": "",
-    "text": "Hi..."
+    "text": "Coming soon…",
+    "crumbs": [
+      "Textbook",
+      "Scientific Computing and Reproducible Research"
+    ]
   },
   {
-    "objectID": "slides/M01/slides-M01.html#section-1",
-    "href": "slides/M01/slides-M01.html#section-1",
-    "title": "Module XXX",
+    "objectID": "textbook/chapters/11-agent-based-models.html",
+    "href": "textbook/chapters/11-agent-based-models.html",
+    "title": "Complex Systems and Agent-based Models",
     "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+    "text": "Coming soon…",
+    "crumbs": [
+      "Textbook",
+      "Complex Systems and Agent-based Models"
+    ]
   },
   {
-    "objectID": "slides/M01/slides-M01.html#footnotes",
-    "href": "slides/M01/slides-M01.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M03/slides-M03.html#in-development",
-    "href": "slides/M03/slides-M03.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M03/slides-M03.html#documentation",
-    "href": "slides/M03/slides-M03.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M03/slides-M03.html#highlight-code",
-    "href": "slides/M03/slides-M03.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M03/slides-M03.html#highlight-code-1",
-    "href": "slides/M03/slides-M03.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M03/slides-M03.html#highlight-code-2",
-    "href": "slides/M03/slides-M03.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M03/slides-M03.html#section",
-    "href": "slides/M03/slides-M03.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M03/slides-M03.html#section-1",
-    "href": "slides/M03/slides-M03.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M03/slides-M03.html#footnotes",
-    "href": "slides/M03/slides-M03.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M05/slides-M05.html#in-development",
-    "href": "slides/M05/slides-M05.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M05/slides-M05.html#documentation",
-    "href": "slides/M05/slides-M05.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M05/slides-M05.html#highlight-code",
-    "href": "slides/M05/slides-M05.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M05/slides-M05.html#highlight-code-1",
-    "href": "slides/M05/slides-M05.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M05/slides-M05.html#highlight-code-2",
-    "href": "slides/M05/slides-M05.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M05/slides-M05.html#section",
-    "href": "slides/M05/slides-M05.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M05/slides-M05.html#section-1",
-    "href": "slides/M05/slides-M05.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M05/slides-M05.html#footnotes",
-    "href": "slides/M05/slides-M05.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M07/slides-M07.html#in-development",
-    "href": "slides/M07/slides-M07.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M07/slides-M07.html#documentation",
-    "href": "slides/M07/slides-M07.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M07/slides-M07.html#highlight-code",
-    "href": "slides/M07/slides-M07.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M07/slides-M07.html#highlight-code-1",
-    "href": "slides/M07/slides-M07.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M07/slides-M07.html#highlight-code-2",
-    "href": "slides/M07/slides-M07.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M07/slides-M07.html#section",
-    "href": "slides/M07/slides-M07.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M07/slides-M07.html#section-1",
-    "href": "slides/M07/slides-M07.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M07/slides-M07.html#footnotes",
-    "href": "slides/M07/slides-M07.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M09/slides-M09.html#in-development",
-    "href": "slides/M09/slides-M09.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M09/slides-M09.html#documentation",
-    "href": "slides/M09/slides-M09.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M09/slides-M09.html#highlight-code",
-    "href": "slides/M09/slides-M09.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M09/slides-M09.html#highlight-code-1",
-    "href": "slides/M09/slides-M09.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M09/slides-M09.html#highlight-code-2",
-    "href": "slides/M09/slides-M09.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M09/slides-M09.html#section",
-    "href": "slides/M09/slides-M09.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M09/slides-M09.html#section-1",
-    "href": "slides/M09/slides-M09.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M09/slides-M09.html#footnotes",
-    "href": "slides/M09/slides-M09.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "slides/M11/slides-M11.html#in-development",
-    "href": "slides/M11/slides-M11.html#in-development",
-    "title": "Module XXX",
-    "section": "In Development",
-    "text": "In Development\n\n\nSpeaker notes go here."
-  },
-  {
-    "objectID": "slides/M11/slides-M11.html#documentation",
-    "href": "slides/M11/slides-M11.html#documentation",
-    "title": "Module XXX",
-    "section": "Documentation",
-    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
-  },
-  {
-    "objectID": "slides/M11/slides-M11.html#highlight-code",
-    "href": "slides/M11/slides-M11.html#highlight-code",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M11/slides-M11.html#highlight-code-1",
-    "href": "slides/M11/slides-M11.html#highlight-code-1",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M11/slides-M11.html#highlight-code-2",
-    "href": "slides/M11/slides-M11.html#highlight-code-2",
-    "title": "Module XXX",
-    "section": "Highlight Code",
-    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "slides/M11/slides-M11.html#section",
-    "href": "slides/M11/slides-M11.html#section",
-    "title": "Module XXX",
-    "section": "",
-    "text": "Hi..."
-  },
-  {
-    "objectID": "slides/M11/slides-M11.html#section-1",
-    "href": "slides/M11/slides-M11.html#section-1",
-    "title": "Module XXX",
-    "section": "",
-    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
-  },
-  {
-    "objectID": "slides/M11/slides-M11.html#footnotes",
-    "href": "slides/M11/slides-M11.html#footnotes",
-    "title": "Module XXX",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee how it works?\nYep."
-  },
-  {
-    "objectID": "textbook/chapters/introduction.html",
-    "href": "textbook/chapters/introduction.html",
+    "objectID": "textbook/chapters/1-introduction.html",
+    "href": "textbook/chapters/1-introduction.html",
     "title": "Introduction",
     "section": "",
-    "text": "Introduction\nComing soon…",
+    "text": "Coming soon…",
     "crumbs": [
       "Textbook",
       "Introduction"
     ]
   },
   {
-    "objectID": "textbook/chapters/references.html",
-    "href": "textbook/chapters/references.html",
-    "title": "References",
+    "objectID": "slides/Slides-11.html#coming-soon",
+    "href": "slides/Slides-11.html#coming-soon",
+    "title": "Scientific Computing",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-09.html#coming-soon",
+    "href": "slides/Slides-09.html#coming-soon",
+    "title": "Scientific Computing",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-07.html#coming-soon",
+    "href": "slides/Slides-07.html#coming-soon",
+    "title": "Scientific Computing",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-05.html#coming-soon",
+    "href": "slides/Slides-05.html#coming-soon",
+    "title": "Scientific Computing",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-03.html#coming-soon",
+    "href": "slides/Slides-03.html#coming-soon",
+    "title": "Causal & Generative Models",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-01.html#columns",
+    "href": "slides/Slides-01.html#columns",
+    "title": "Introduction",
+    "section": "Columns",
+    "text": "Columns\n\n\nLeft. 🔥🔥🔥\n\nRight. 🔥🔥🔥"
+  },
+  {
+    "objectID": "slides/Slides-01.html#python",
+    "href": "slides/Slides-01.html#python",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\nUsing #| output-location: column-fragment puts the output in the adjacent column space.\n\n\nprint(\"hello world!\")\n\n\nhello world!"
+  },
+  {
+    "objectID": "slides/Slides-01.html#python-1",
+    "href": "slides/Slides-01.html#python-1",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\n\n\nimport matplotlib.pyplot as plt\nimport seaborn as sns\ntips = sns.load_dataset(\"tips\")\ntips.head()\n\n\n\n\n\n\n\n\n\n\ntotal_bill\ntip\nsex\nsmoker\nday\ntime\nsize\n\n\n\n\n0\n16.99\n1.01\nFemale\nNo\nSun\nDinner\n2\n\n\n1\n10.34\n1.66\nMale\nNo\nSun\nDinner\n3\n\n\n2\n21.01\n3.50\nMale\nNo\nSun\nDinner\n3\n\n\n3\n23.68\n3.31\nMale\nNo\nSun\nDinner\n2\n\n\n4\n24.59\n3.61\nFemale\nNo\nSun\nDinner\n4"
+  },
+  {
+    "objectID": "slides/Slides-01.html#python-2",
+    "href": "slides/Slides-01.html#python-2",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\nOutput on the following slide…\n\nsns.scatterplot(data=tips, x=\"total_bill\", y=\"tip\")\nplt.show()"
+  },
+  {
+    "objectID": "slides/Slides-01.html#python-2-output",
+    "href": "slides/Slides-01.html#python-2-output",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\n\n\n\n\n \n  \n   \n    \n    2024-02-26T15:03:55.371965\n    image/svg+xml\n    \n     \n      Matplotlib v3.8.0, https://matplotlib.org/"
+  },
+  {
+    "objectID": "slides/Slides-01.html#in-development",
+    "href": "slides/Slides-01.html#in-development",
+    "title": "Introduction",
+    "section": "In Development",
+    "text": "In Development\n\n\nSpeaker notes go here."
+  },
+  {
+    "objectID": "slides/Slides-01.html#documentation",
+    "href": "slides/Slides-01.html#documentation",
+    "title": "Introduction",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
+  },
+  {
+    "objectID": "slides/Slides-01.html#highlight-code",
+    "href": "slides/Slides-01.html#highlight-code",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/Slides-01.html#highlight-code-1",
+    "href": "slides/Slides-01.html#highlight-code-1",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/Slides-01.html#highlight-code-2",
+    "href": "slides/Slides-01.html#highlight-code-2",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/Slides-01.html#section",
+    "href": "slides/Slides-01.html#section",
+    "title": "Introduction",
     "section": "",
-    "text": "References",
+    "text": "print('Hi...')\n\nHi..."
+  },
+  {
+    "objectID": "slides/Slides-01.html#section-1",
+    "href": "slides/Slides-01.html#section-1",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi..."
+  },
+  {
+    "objectID": "slides/Slides-01.html#annotate-code",
+    "href": "slides/Slides-01.html#annotate-code",
+    "title": "Introduction",
+    "section": "Annotate Code",
+    "text": "Annotate Code\n1import pymc\n2print('Hello World')\n3print('Hello World')\n4print('Hello World')\n5print('Hello World')\n\n1\n\nthis is a test\n\n2\n\nthis is a test\n\n3\n\nthis is a test\n\n4\n\nthis is a test\n\n5\n\nthis is a test"
+  },
+  {
+    "objectID": "slides/Slides-01.html#in-development-1",
+    "href": "slides/Slides-01.html#in-development-1",
+    "title": "Introduction",
+    "section": "In Development",
+    "text": "In Development\n\n\nSpeaker notes go here."
+  },
+  {
+    "objectID": "slides/Slides-01.html#documentation-1",
+    "href": "slides/Slides-01.html#documentation-1",
+    "title": "Introduction",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.3\nAnother4"
+  },
+  {
+    "objectID": "slides/Slides-01.html#highlight-code-3",
+    "href": "slides/Slides-01.html#highlight-code-3",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/Slides-01.html#highlight-code-4",
+    "href": "slides/Slides-01.html#highlight-code-4",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/Slides-01.html#highlight-code-5",
+    "href": "slides/Slides-01.html#highlight-code-5",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/Slides-01.html#section-2",
+    "href": "slides/Slides-01.html#section-2",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi..."
+  },
+  {
+    "objectID": "slides/Slides-01.html#section-3",
+    "href": "slides/Slides-01.html#section-3",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-01.html#footnotes",
+    "href": "slides/Slides-01.html#footnotes",
+    "title": "Introduction",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSee how it works?\nYep.\nSee how it works?\nYep."
+  },
+  {
+    "objectID": "pages/software.html",
+    "href": "pages/software.html",
+    "title": "Research Software",
+    "section": "",
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-11.html",
+    "href": "modules/Module-11.html",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-11.html#learning-objectives",
+    "href": "modules/Module-11.html#learning-objectives",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-11.html#module-topics",
+    "href": "modules/Module-11.html#module-topics",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-11.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-11.html#assigned-reading-lecture-slides",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nComplex Systems and Agent-based Models\nModule 11 Slides"
+  },
+  {
+    "objectID": "modules/Module-11.html#lab",
+    "href": "modules/Module-11.html#lab",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-11.html#recommended-additional-resources",
+    "href": "modules/Module-11.html#recommended-additional-resources",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-11.html#references",
+    "href": "modules/Module-11.html#references",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-09.html",
+    "href": "modules/Module-09.html",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-09.html#learning-objectives",
+    "href": "modules/Module-09.html#learning-objectives",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-09.html#module-topics",
+    "href": "modules/Module-09.html#module-topics",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-09.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-09.html#assigned-reading-lecture-slides",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nMeasurement Error, Missing Data, and Generalized Linear Models\nModule 9 Slides"
+  },
+  {
+    "objectID": "modules/Module-09.html#lab",
+    "href": "modules/Module-09.html#lab",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-09.html#recommended-additional-resources",
+    "href": "modules/Module-09.html#recommended-additional-resources",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-09.html#references",
+    "href": "modules/Module-09.html#references",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-07.html",
+    "href": "modules/Module-07.html",
+    "title": "Module 07: Linear Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-07.html#learning-objectives",
+    "href": "modules/Module-07.html#learning-objectives",
+    "title": "Module 07: Linear Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-07.html#module-topics",
+    "href": "modules/Module-07.html#module-topics",
+    "title": "Module 07: Linear Models",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-07.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-07.html#assigned-reading-lecture-slides",
+    "title": "Module 07: Linear Models",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nLinear Models\nModule 7 Slides"
+  },
+  {
+    "objectID": "modules/Module-07.html#lab",
+    "href": "modules/Module-07.html#lab",
+    "title": "Module 07: Linear Models",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-07.html#recommended-additional-resources",
+    "href": "modules/Module-07.html#recommended-additional-resources",
+    "title": "Module 07: Linear Models",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-07.html#references",
+    "href": "modules/Module-07.html#references",
+    "title": "Module 07: Linear Models",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-05.html",
+    "href": "modules/Module-05.html",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-05.html#learning-objectives",
+    "href": "modules/Module-05.html#learning-objectives",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-05.html#module-topics",
+    "href": "modules/Module-05.html#module-topics",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "Module Topics",
+    "text": "Module Topics"
+  },
+  {
+    "objectID": "modules/Module-05.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-05.html#assigned-reading-lecture-slides",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nQuantifying Uncertainty and Reallocating Credibility\nModule 5 Slides"
+  },
+  {
+    "objectID": "modules/Module-05.html#lab",
+    "href": "modules/Module-05.html#lab",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-05.html#recommended-additional-resources",
+    "href": "modules/Module-05.html#recommended-additional-resources",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-05.html#references",
+    "href": "modules/Module-05.html#references",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-03.html",
+    "href": "modules/Module-03.html",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "",
+    "text": "“No causes in, no causes out!” - Nancy Cartwright (1989), Nature’s Capacities and Their Measurement. Oxford: Clarendon Press."
+  },
+  {
+    "objectID": "modules/Module-03.html#learning-objectives",
+    "href": "modules/Module-03.html#learning-objectives",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\n\n\n\n\n\nBy the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-03.html#module-topics",
+    "href": "modules/Module-03.html#module-topics",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nWe Can Do Better Than the Status Quo!\n\nCentring Causality and Uncertainty with Causal and Bayesian Inference\n\nWhat are models? What is Causal Inference?\n\nMaking Our Assumptions Explicit (Part 1): Graphical Models\n\nWhat is Bayesian Inference?\n\nCounting and the Reallocation of Credibility Across All Possibilities\n\nConceptual Causal Models Come First, Statistical Models Come Second"
+  },
+  {
+    "objectID": "modules/Module-03.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-03.html#assigned-reading-lecture-slides",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nFoundations of Causal and Generative Models\nModule 3 Slides"
+  },
+  {
+    "objectID": "modules/Module-03.html#lab",
+    "href": "modules/Module-03.html#lab",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-03.html#recommended-additional-resources",
+    "href": "modules/Module-03.html#recommended-additional-resources",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-01.html",
+    "href": "modules/Module-01.html",
+    "title": "Module 01: Introduction",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-01.html#learning-objectives",
+    "href": "modules/Module-01.html#learning-objectives",
+    "title": "Module 01: Introduction",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-01.html#module-topics",
+    "href": "modules/Module-01.html#module-topics",
+    "title": "Module 01: Introduction",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nPersonal Introductions + Learning Goals\n\nTeaching Modelling and Quantitative Data Analysis: What’s Wrong with the Status Quo?\n\nThe Status Quo\nStatistical Golems\nNull Hypothesis Significance Testing (NHST)\nBad Controls\nTransparency and Accountability, Reproducibility, Ethics\n\nWe Can Do Better!\n\nStatistical Problem Solving; Probabilistic, Systems, and Futures Thinking\nPrior Knowledge; Causal Models and Good Controls\nReproducible Research and Model-based Data Analysis\n\nOverview of Course Topics, Learning Objectives, Assessment Methods, and Software"
+  },
+  {
+    "objectID": "modules/Module-01.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-01.html#assigned-reading-lecture-slides",
+    "title": "Module 01: Introduction",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nIntroduction\nModule 1 Slides"
+  },
+  {
+    "objectID": "modules/Module-01.html#lab",
+    "href": "modules/Module-01.html#lab",
+    "title": "Module 01: Introduction",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-01.html#recommended-additional-resources",
+    "href": "modules/Module-01.html#recommended-additional-resources",
+    "title": "Module 01: Introduction",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-01.html#references",
+    "href": "modules/Module-01.html#references",
+    "title": "Module 01: Introduction",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data, Methods, and Models for Future Cities",
+    "section": "",
+    "text": "You can learn a bit more about me and my approach to teaching modelling and quantiative data analysis here."
+  },
+  {
+    "objectID": "index.html#the-master-of-future-cities-mfc-program",
+    "href": "index.html#the-master-of-future-cities-mfc-program",
+    "title": "Data, Methods, and Models for Future Cities",
+    "section": "The Master of Future Cities (MFC) Program",
+    "text": "The Master of Future Cities (MFC) Program\n\n\n\n\n\n\nThe Future is Unknown\n\n\n\n“The traditional approaches to studying, planning, managing, and visioning our cities are arguably struggling to address our challenges today and lack the capacity to critically explore and develop alternatives for a future city. There is need to move beyond the silos within cities and disciplinary boundaries to foster multidisciplinary and transdisciplinary thinking applied to urban challenges and futures.”\nLearn more about the program here.\n\n\n\n\n\n(Image from Michael Betancourt.)"
+  },
+  {
+    "objectID": "modules/Module-02.html",
+    "href": "modules/Module-02.html",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-02.html#learning-objectives",
+    "href": "modules/Module-02.html#learning-objectives",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-02.html#module-topics",
+    "href": "modules/Module-02.html#module-topics",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-02.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-02.html#assigned-reading-lecture-slides",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nScientific Computing and Reproducible Research\nModule 2 Slides"
+  },
+  {
+    "objectID": "modules/Module-02.html#lab",
+    "href": "modules/Module-02.html#lab",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-02.html#recommended-additional-resources",
+    "href": "modules/Module-02.html#recommended-additional-resources",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-02.html#references",
+    "href": "modules/Module-02.html#references",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-04.html",
+    "href": "modules/Module-04.html",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "",
+    "text": "“No causes in, no causes out!” - Nancy Cartwright (1989), Nature’s Capacities and Their Measurement. Oxford: Clarendon Press."
+  },
+  {
+    "objectID": "modules/Module-04.html#learning-objectives",
+    "href": "modules/Module-04.html#learning-objectives",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\n\n\n\n\n\nBy the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-04.html#module-topics",
+    "href": "modules/Module-04.html#module-topics",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nWe Can Do Better Than the Status Quo!\n\nCentring Causality and Uncertainty with Causal and Bayesian Inference\n\nWhat are models? What is Causal Inference?\n\nMaking Our Assumptions Explicit (Part 1): Graphical Models\n\nWhat is Bayesian Inference?\n\nCounting and the Reallocation of Credibility Across All Possibilities\n\nConceptual Causal Models Come First, Statistical Models Come Second"
+  },
+  {
+    "objectID": "modules/Module-04.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-04.html#assigned-reading-lecture-slides",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nFoundations of Probabilistic Programming\nModule 4 Slides"
+  },
+  {
+    "objectID": "modules/Module-04.html#lab",
+    "href": "modules/Module-04.html#lab",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-04.html#recommended-additional-resources",
+    "href": "modules/Module-04.html#recommended-additional-resources",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-06.html",
+    "href": "modules/Module-06.html",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-06.html#learning-objectives",
+    "href": "modules/Module-06.html#learning-objectives",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-06.html#module-topics",
+    "href": "modules/Module-06.html#module-topics",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-06.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-06.html#assigned-reading-lecture-slides",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nAutomating Inference via Stochastic Sampling\nModule 6 Slides"
+  },
+  {
+    "objectID": "modules/Module-06.html#lab",
+    "href": "modules/Module-06.html#lab",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-06.html#recommended-additional-resources",
+    "href": "modules/Module-06.html#recommended-additional-resources",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-06.html#references",
+    "href": "modules/Module-06.html#references",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-08.html",
+    "href": "modules/Module-08.html",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-08.html#learning-objectives",
+    "href": "modules/Module-08.html#learning-objectives",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-08.html#module-topics",
+    "href": "modules/Module-08.html#module-topics",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-08.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-08.html#assigned-reading-lecture-slides",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nHierarchical Regression\nModule 8 Slides"
+  },
+  {
+    "objectID": "modules/Module-08.html#lab",
+    "href": "modules/Module-08.html#lab",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-08.html#recommended-additional-resources",
+    "href": "modules/Module-08.html#recommended-additional-resources",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-08.html#references",
+    "href": "modules/Module-08.html#references",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-10.html",
+    "href": "modules/Module-10.html",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-10.html#learning-objectives",
+    "href": "modules/Module-10.html#learning-objectives",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-10.html#module-topics",
+    "href": "modules/Module-10.html#module-topics",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-10.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-10.html#assigned-reading-lecture-slides",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nModelling Network Structure and Dynamics\nModule 10 Slides"
+  },
+  {
+    "objectID": "modules/Module-10.html#lab",
+    "href": "modules/Module-10.html#lab",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-10.html#recommended-additional-resources",
+    "href": "modules/Module-10.html#recommended-additional-resources",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-10.html#references",
+    "href": "modules/Module-10.html#references",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-12.html",
+    "href": "modules/Module-12.html",
+    "title": "Module 12: Conclusion",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-12.html#learning-objectives",
+    "href": "modules/Module-12.html#learning-objectives",
+    "title": "Module 12: Conclusion",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-12.html#module-topics",
+    "href": "modules/Module-12.html#module-topics",
+    "title": "Module 12: Conclusion",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-12.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-12.html#assigned-reading-lecture-slides",
+    "title": "Module 12: Conclusion",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nConclusion\nModule 12 Slides"
+  },
+  {
+    "objectID": "modules/Module-12.html#lab",
+    "href": "modules/Module-12.html#lab",
+    "title": "Module 12: Conclusion",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-12.html#recommended-additional-resources",
+    "href": "modules/Module-12.html#recommended-additional-resources",
+    "title": "Module 12: Conclusion",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-12.html#references",
+    "href": "modules/Module-12.html#references",
+    "title": "Module 12: Conclusion",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "pages/resources.html",
+    "href": "pages/resources.html",
+    "title": "Additional Resources",
+    "section": "",
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "pages/resources.html#quarto",
+    "href": "pages/resources.html#quarto",
+    "title": "Additional Resources",
+    "section": "",
+    "text": "Emil Hvitfeldt’s “Slidecraft 101” blog series and/or talk at R Conference.\n\nColors and Fonts\nCode and Output\nTheme Variants\nAdvanced Slide Themes\n7 Tips and Tricks\nLayout"
+  },
+  {
+    "objectID": "pages/resources.html#bayesian-modelling-data-analysis",
+    "href": "pages/resources.html#bayesian-modelling-data-analysis",
+    "title": "Additional Resources",
+    "section": "Bayesian Modelling & Data Analysis",
+    "text": "Bayesian Modelling & Data Analysis\n\nJohnson, Ott, and Dogucu (2022), Bayes Rules! An Introduction to Applied Bayesian Modelling\nBetancourt’s draft manuscript on probabilistic modelling with stan\nPoldrack (2024), Statistical Thinking for the 21st Century and the Python Companion."
+  },
+  {
+    "objectID": "pages/syllabus.html",
+    "href": "pages/syllabus.html",
+    "title": "Data, Methods, & Models for Future Cities",
+    "section": "",
+    "text": "Warning\n\n\n\nSYLLABUS UNDER DEVELOPMENT!!!"
+  },
+  {
+    "objectID": "pages/syllabus.html#course-description",
+    "href": "pages/syllabus.html#course-description",
+    "title": "Data, Methods, & Models for Future Cities",
+    "section": "Course Description",
+    "text": "Course Description\nThis course is a graduate-level introduction to modelling and reproducible quantitative data analysis with an emphasis on probabilistic, systems, and futures thinking. Students will learn how to quantify uncertainty from a Bayesian perspective, and will develop skills in developing, assessing, and reasoning with linear, network, and simulation models. By the end of this course, students will be able to conduct reproducible model-based data analyses to support reasoning about complex and uncertain futures, and will have a solid foundation for statistical problem solving and more specialized learning in the future."
+  },
+  {
+    "objectID": "pages/syllabus.html#learning-objectives",
+    "href": "pages/syllabus.html#learning-objectives",
+    "title": "Data, Methods, & Models for Future Cities",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nEach module in this course has it’s own specific learning objectives. You can find them at the top of each module overview page (accessible from the Modules menu item on the course website)."
+  },
+  {
+    "objectID": "pages/syllabus.html#readings",
+    "href": "pages/syllabus.html#readings",
+    "title": "Data, Methods, & Models for Future Cities",
+    "section": "Readings",
+    "text": "Readings\nYou do not need to purchase any books for this class. All assigned readings are provided in an open access course textbook accesible on this course website:\n\nJohn McLevey, An Introduction to Reproducible Research and Probabilistic Modelling, Draft Manuscript.\n\nSee the Course Schedule for weekly reading assignments and links."
+  },
+  {
+    "objectID": "pages/syllabus.html#research-software",
+    "href": "pages/syllabus.html#research-software",
+    "title": "Data, Methods, & Models for Future Cities",
+    "section": "Research Software",
+    "text": "Research Software\nWe will use Python and other open source software in this course. You can find details on installing and setting up your research software here. Note that Module 2 is focused on installing, setting up, and getting started with the required software."
+  },
+  {
+    "objectID": "pages/syllabus.html#assessment",
+    "href": "pages/syllabus.html#assessment",
+    "title": "Data, Methods, & Models for Future Cities",
+    "section": "Assessment",
+    "text": "Assessment\n\nIDEA: Quarto portfolio, GitHub pages + blog posts, etc.\n\n\n\n\nCourse Component\nValue\nDue Date\n\n\n\n\nWeekly Online Quizzes\n30%\nWeeks 2-12\n\n\nWeekly Problems (Pass/Fail)\n20%\nEvery week\n\n\nMidterm Exam\n20%\nWeek 6\n\n\nFinal Exam\n30%\nExam Period\n\n\n\n\nWeekly Online Quizzes (30%)\nStarting in Week 2, there will be a short online quiz consisting of ~ 10 multiple choice or true/false questions every week. These quizzes will cover content from the previous week and are intended to help you stay on track (course content is cumulative) and learn more deeply by practicing two evidence-based learning strategies: spaced repetition and retrieval. There are 11 quizzes in total. I will automatically drop your lowest grade. The remaining 10 quizzes are worth 3% each.\n\n\nWeekly Problems (20%)\n\n“The one who does the work does the learning.” - Todd Zakrajsek (2022), The New Science of Learning: How to Learn in Harmony with Your Brain. Routledge.\n\nEach assigned reading ends with a set of questions and/or problems to help you develop foundational skills and learn the content more deeply. You must complete at least 2 questions / problems and upload your work to the appropriate Dropbox on Learn. You will receive a “pass” for any reasonable attempt.\n\n\nMidterm (20%) and Final Exam (30%)\nThere will be an in-class midterm exam in Week 6, testing course material from Weeks 1-5. The final exam will cover content from the entire course, but with a heavy emphasis on material introduced in Weeks 6-12 (which builds on the first 5 weeks)."
+  },
+  {
+    "objectID": "pages/syllabus.html#course-schedule",
+    "href": "pages/syllabus.html#course-schedule",
+    "title": "Data, Methods, & Models for Future Cities",
+    "section": "Course Schedule",
+    "text": "Course Schedule\nAll content linked below can also be accessed from the menu at the top of the course website.\n\n\n\nWeek\nModule\nAssigned Reading\nLecture Slides\n\n\n\n\n01\nIntroduction\nChapter 1\nSlides\n\n\n02\nScientific Computing and Reproducible Research\nChapter 2\nSlides\n\n\n03\nFoundations of Causal and Generative Models\nChapter 3\nSlides\n\n\n04\nFoundations of Probabilistic Programming\nChapter 4\nSlides\n\n\n05\nQuantifying Uncertainty and Reallocating Credibility\nChapter 5\nSlides\n\n\n06\nAutomating Inference via Stochastic Sampling\nChapter 6\nSlides\n\n\n07\nLinear Models\nChapter 7\nSlides\n\n\n08\nHierarchical Regression\nChapter 8\nSlides\n\n\n09\nMeasurement Error, Missing Data, and Generalized Linear Models\nChapter 9\nSlides\n\n\n10\nModelling Network Structure and Dynamics\nChapter 10\nSlides\n\n\n11\nComplex Systems and Agent-based Models\nChapter 11\nSlides\n\n\n12\nConclusion\nChapter 12\nSlides"
+  },
+  {
+    "objectID": "slides/Slides-02.html#coming-soon",
+    "href": "slides/Slides-02.html#coming-soon",
+    "title": "Scientific Computing",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-04.html#coming-soon",
+    "href": "slides/Slides-04.html#coming-soon",
+    "title": "Scientific Computing",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-06.html#coming-soon",
+    "href": "slides/Slides-06.html#coming-soon",
+    "title": "Scientific Computing",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-08.html#coming-soon",
+    "href": "slides/Slides-08.html#coming-soon",
+    "title": "Scientific Computing",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-10.html#coming-soon",
+    "href": "slides/Slides-10.html#coming-soon",
+    "title": "Scientific Computing",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/Slides-12.html#coming-soon",
+    "href": "slides/Slides-12.html#coming-soon",
+    "title": "Scientific Computing",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "textbook/chapters/10-modelling-networks.html",
+    "href": "textbook/chapters/10-modelling-networks.html",
+    "title": "Modelling Network Structure and Dynamics",
+    "section": "",
+    "text": "Coming soon…",
     "crumbs": [
       "Textbook",
-      "References"
+      "Modelling Network Structure and Dynamics"
     ]
+  },
+  {
+    "objectID": "textbook/chapters/12-conclusion.html",
+    "href": "textbook/chapters/12-conclusion.html",
+    "title": "Conclusion",
+    "section": "",
+    "text": "Coming soon…\n\nReferences",
+    "crumbs": [
+      "Textbook",
+      "Conclusion"
+    ]
+  },
+  {
+    "objectID": "textbook/chapters/3-causal-generative-models.html",
+    "href": "textbook/chapters/3-causal-generative-models.html",
+    "title": "Foundations of Causal and Generative Models",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Textbook",
+      "Foundations of Causal and Generative Models"
+    ]
+  },
+  {
+    "objectID": "textbook/chapters/5-bayesian-inference.html",
+    "href": "textbook/chapters/5-bayesian-inference.html",
+    "title": "Quantifying Uncertainty and Reallocating Credibility",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Textbook",
+      "Quantifying Uncertainty and Reallocating Credibility"
+    ]
+  },
+  {
+    "objectID": "textbook/chapters/7-linear-models.html",
+    "href": "textbook/chapters/7-linear-models.html",
+    "title": "Linear Models",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Textbook",
+      "Linear Models"
+    ]
+  },
+  {
+    "objectID": "textbook/chapters/9-measurement-missing-data-glms.html",
+    "href": "textbook/chapters/9-measurement-missing-data-glms.html",
+    "title": "Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Textbook",
+      "Measurement Error, Missing Data, and Generalized Linear Models"
+    ]
+  },
+  {
+    "objectID": "slides/test_deck.html#columns",
+    "href": "slides/test_deck.html#columns",
+    "title": "Introduction",
+    "section": "Columns",
+    "text": "Columns\n\n\nLeft. 🔥🔥🔥\n\nRight. 🔥🔥🔥"
+  },
+  {
+    "objectID": "slides/test_deck.html#python",
+    "href": "slides/test_deck.html#python",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\nUsing #| output-location: column-fragment puts the output in the adjacent column space.\n\n\nprint(\"hello world!\")\n\n\nhello world!"
+  },
+  {
+    "objectID": "slides/test_deck.html#python-1",
+    "href": "slides/test_deck.html#python-1",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\n\n\nimport matplotlib.pyplot as plt\nimport seaborn as sns\ntips = sns.load_dataset(\"tips\")\ntips.head()\n\n\n\n\n\n\n\n\n\n\ntotal_bill\ntip\nsex\nsmoker\nday\ntime\nsize\n\n\n\n\n0\n16.99\n1.01\nFemale\nNo\nSun\nDinner\n2\n\n\n1\n10.34\n1.66\nMale\nNo\nSun\nDinner\n3\n\n\n2\n21.01\n3.50\nMale\nNo\nSun\nDinner\n3\n\n\n3\n23.68\n3.31\nMale\nNo\nSun\nDinner\n2\n\n\n4\n24.59\n3.61\nFemale\nNo\nSun\nDinner\n4"
+  },
+  {
+    "objectID": "slides/test_deck.html#python-2",
+    "href": "slides/test_deck.html#python-2",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\nOutput on the following slide…\n\nsns.scatterplot(data=tips, x=\"total_bill\", y=\"tip\")\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#python-2-output",
+    "href": "slides/test_deck.html#python-2-output",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\n\n\n\n\n \n  \n   \n    \n    2024-02-26T15:03:55.371965\n    image/svg+xml\n    \n     \n      Matplotlib v3.8.0, https://matplotlib.org/"
+  },
+  {
+    "objectID": "slides/test_deck.html#in-development",
+    "href": "slides/test_deck.html#in-development",
+    "title": "Introduction",
+    "section": "In Development",
+    "text": "In Development\n\n\nSpeaker notes go here."
+  },
+  {
+    "objectID": "slides/test_deck.html#documentation",
+    "href": "slides/test_deck.html#documentation",
+    "title": "Introduction",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code",
+    "href": "slides/test_deck.html#highlight-code",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code-1",
+    "href": "slides/test_deck.html#highlight-code-1",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code-2",
+    "href": "slides/test_deck.html#highlight-code-2",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#section",
+    "href": "slides/test_deck.html#section",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi..."
+  },
+  {
+    "objectID": "slides/test_deck.html#section-1",
+    "href": "slides/test_deck.html#section-1",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi..."
+  },
+  {
+    "objectID": "slides/test_deck.html#annotate-code",
+    "href": "slides/test_deck.html#annotate-code",
+    "title": "Introduction",
+    "section": "Annotate Code",
+    "text": "Annotate Code\n1import pymc\n2print('Hello World')\n3print('Hello World')\n4print('Hello World')\n5print('Hello World')\n\n1\n\nthis is a test\n\n2\n\nthis is a test\n\n3\n\nthis is a test\n\n4\n\nthis is a test\n\n5\n\nthis is a test"
+  },
+  {
+    "objectID": "slides/test_deck.html#in-development-1",
+    "href": "slides/test_deck.html#in-development-1",
+    "title": "Introduction",
+    "section": "In Development",
+    "text": "In Development\n\n\nSpeaker notes go here."
+  },
+  {
+    "objectID": "slides/test_deck.html#documentation-1",
+    "href": "slides/test_deck.html#documentation-1",
+    "title": "Introduction",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.3\nAnother4"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code-3",
+    "href": "slides/test_deck.html#highlight-code-3",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code-4",
+    "href": "slides/test_deck.html#highlight-code-4",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code-5",
+    "href": "slides/test_deck.html#highlight-code-5",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#section-2",
+    "href": "slides/test_deck.html#section-2",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi..."
+  },
+  {
+    "objectID": "slides/test_deck.html#section-3",
+    "href": "slides/test_deck.html#section-3",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
+  },
+  {
+    "objectID": "slides/test_deck.html#footnotes",
+    "href": "slides/test_deck.html#footnotes",
+    "title": "Introduction",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSee how it works?\nYep.\nSee how it works?\nYep."
+  },
+  {
+    "objectID": "slides/Slides-01.html#coming-soon",
+    "href": "slides/Slides-01.html#coming-soon",
+    "title": "Introduction",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/data-methods-models/"
   }
 ]

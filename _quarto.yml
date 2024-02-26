@@ -14,8 +14,7 @@ website:
   # google-analytics: # EXAMPLE: "G-3Z3Z3Z3Z3Z3"
   
   repo-url: https://github.com/mclevey/data-methods-models
-  repo-actions: [edit, issue]
-
+  repo-actions: [edit, issue, source]
   open-graph: true
 
   title: "Data, Methods, and Models"
@@ -27,66 +26,67 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Syllabus"
-        file: articles/syllabus.qmd
+        file: pages/syllabus.qmd
       - text: "Instructor"
-        file: articles/about.qmd
+        file: pages/about.qmd
       - text: "Textbook"
         file: textbook/index.qmd
-      - text: "Course Modules"
+      - text: "Software"
+        file: pages/software.qmd
+      - text: "Modules"
         menu:
-          - text: Module 01 Overview
-            href: articles/modules/Module-01.qmd
-          - text: Module 02 Overview
-            href: articles/modules/Module-02.qmd
-          - text: Module 03 Overview
-            href: articles/modules/Module-03.qmd
-          - text: Module 04 Overview
-            href: articles/modules/Module-04.qmd
-          - text: Module 05 Overview
-            href: articles/modules/Module-05.qmd
-          - text: Module 06 Overview
-            href: articles/modules/Module-06.qmd
-          - text: Module 07 Overview
-            href: articles/modules/Module-07.qmd
-          - text: Module 08 Overview
-            href: articles/modules/Module-08.qmd
-          - text: Module 09 Overview
-            href: articles/modules/Module-09.qmd
-          - text: Module 10 Overview
-            href: articles/modules/Module-10.qmd
-          - text: Module 11 Overview
-            href: articles/modules/Module-11.qmd
-          - text: Module 12 Overview
-            href: articles/modules/Module-12.qmd
-
+          - text: Module 01 (Introduction)
+            href: modules/Module-01.qmd
+          - text: Module 02 (Scientific Computing)
+            href: modules/Module-02.qmd
+          - text: Module 03 (Causal and Generative Models)
+            href: modules/Module-03.qmd
+          - text: Module 04 (Probabilistic Programming)
+            href: modules/Module-04.qmd
+          - text: Module 05 (Quantifying Uncertainty and Reallocating Credibility)
+            href: modules/Module-05.qmd
+          - text: Module 06 (Making Sense of Stochastic Sampling)
+            href: modules/Module-06.qmd
+          - text: Module 07 (Linear Models)
+            href: modules/Module-07.qmd
+          - text: Module 08 (Hierarchical Regression)
+            href: modules/Module-08.qmd
+          - text: Module 09 (Measurement Error, Missing Data, and Generalized Linear Models)
+            href: modules/Module-09.qmd
+          - text: Module 10 (Modelling Network Structure and Dynamics)
+            href: modules/Module-10.qmd
+          - text: Module 11 (Complex Systems and Agent-Based Models)
+            href: modules/Module-11.qmd
+          - text: Module 12 (Conclusion)
+            href: modules/Module-12.qmd
       - text: "Slides"
         menu:
           - text: Module 01 Slides (Introduction)
-            href: slides/M01/slides-M01.html
-          - text: Module 02 Slides (...)
-            href: slides/M02/slides-M02.html
+            href: slides/Slides-01.html
+          - text: Module 02 Slides (Research Computing)
+            href: slides/Slides-02.html
           - text: Module 03 Slides (...)
-            href: slides/M03/slides-M03.html
+            href: slides/Slides-03.html
           - text: Module 04 Slides (...)
-            href: slides/M04/slides-M04.html
+            href: slides/Slides-04.html
           - text: Module 05 Slides (...)
-            href: slides/M05/slides-M05.html
+            href: slides/Slides-05.html
           - text: Module 06 Slides (...)
-            href: slides/M06/slides-M06.html
+            href: slides/Slides-06.html
           - text: Module 07 Slides (...)
-            href: slides/M07/slides-M07.html
+            href: slides/Slides-07.html
           - text: Module 08 Slides (...)
-            href: slides/M08/slides-M08.html
+            href: slides/Slides-08.html
           - text: Module 09 Slides (...)
-            href: slides/M09/slides-M09.html
+            href: slides/Slides-09.html
           - text: Module 10 Slides (...)
-            href: slides/M10/slides-M10.html
+            href: slides/Slides-10.html
           - text: Module 11 Slides (...)
-            href: slides/M11/slides-M11.html
+            href: slides/Slides-11.html
           - text: Module 12 Slides (...)
-            href: slides/M12/slides-M12.html
+            href: slides/Slides-12.html
       - text: "Additional Resources"
-        file: articles/resources.qmd
+        file: pages/resources.qmd
     right: 
       - text: "License"
         file: LICENSE.md
@@ -98,24 +98,20 @@ website:
       logo: ../images/cover.png
       contents:
         - textbook/index.qmd
-        - textbook/chapters/preface.qmd
-        # - textbook/Reading_Formats.qmd
-        - textbook/chapters/introduction.qmd
-        - textbook/chapters/references.qmd
-    - title: "Learning Modules"
-      logo: images/logo.png
-      contents: articles/modules/*.qmd
-    # - title: "OER"
-    #   logo: images/logo.png
-    #   contents:
-    #     - articles/oer/OER.qmd
-    #     - articles/oer/dev_notes.qmd
-
+        - textbook/chapters/1-introduction.qmd
+        - textbook/chapters/2-computing.qmd
+        - textbook/chapters/3-causal-generative-models.qmd
+        - textbook/chapters/4-probabilistic-programming.qmd
+        - textbook/chapters/5-bayesian-inference.qmd
+        - textbook/chapters/6-stochastic-sampling.qmd
+        - textbook/chapters/7-linear-models.qmd
+        - textbook/chapters/8-hierarchical-regression.qmd
+        - textbook/chapters/9-measurement-missing-data-glms.qmd
+        - textbook/chapters/10-modelling-networks.qmd
+        - textbook/chapters/11-agent-based-models.qmd
+        - textbook/chapters/12-conclusion.qmd
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-

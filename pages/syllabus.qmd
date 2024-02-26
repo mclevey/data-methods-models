@@ -1,0 +1,88 @@
+---
+title: Data, Methods, & Models for Future Cities
+description: FCIT 607 | Graduate Course | Online | Lectures + Labs
+author: John McLevey
+date: 06/22/2023
+date-modified: last-modified
+---
+
+:::{.callout-warning}
+SYLLABUS UNDER DEVELOPMENT!!!
+:::
+
+:::{.callout-note}
+## Instructor Information
+Dr. **John McLevey** (he/him)  
+Knowledge Integration, Sociology & Legal Studies   
+University of Waterloo   
+Email: <john.mclevey@uwaterloo.ca>
+
+**Office Hours**: Mondays, 1:00 - 4:00 pm or by appointment   
+**Office**: EV1-215, University of Waterloo   
+:::
+
+## Course Description
+
+This course is a graduate-level introduction to modelling and reproducible quantitative data analysis with an emphasis on probabilistic, systems, and futures *thinking*. Students will learn how to quantify uncertainty from a Bayesian perspective, and will develop skills in developing, assessing, and reasoning with linear, network, and simulation models. By the end of this course, students will be able to conduct reproducible model-based data analyses to support reasoning about complex and uncertain futures, and will have a solid foundation for statistical problem solving and more specialized learning in the future.
+
+## Learning Objectives
+
+Each module in this course has it's own specific learning objectives. You can find them at the top of each module overview page (accessible from the *Modules* menu item on the course website). 
+
+## Readings
+
+You do not need to purchase any books for this class. All assigned readings are provided in an open access course textbook accesible on this course website: 
+
+- John McLevey, *[An Introduction to Reproducible Research and Probabilistic Modelling](../textbook/index.qmd)*, Draft Manuscript.
+
+See the [Course Schedule](#course-schedule) for weekly reading assignments and links.
+
+## Research Software
+
+We will use Python and other open source software in this course. You can find details on installing and setting up your research software [here](software.qmd). Note that Module 2 is focused on installing, setting up, and getting started with the required software.
+
+## Assessment
+
+- [ ] **IDEA**: Quarto portfolio, GitHub pages + blog posts, etc.
+
+| Course Component | Value | Due Date |
+| :--- | ---- | ---- |
+| Weekly Online Quizzes | 30% | Weeks 2-12 |
+| Weekly Problems (Pass/Fail) | 20% | Every week |
+| Midterm Exam | 20% | Week 6 |
+| Final Exam | 30% | Exam Period |
+
+### Weekly Online Quizzes (30%)
+
+Starting in Week 2, there will be a short online quiz consisting of ~ 10 multiple choice or true/false questions every week. These quizzes will cover content from the previous week and are intended to help you stay on track (course content is cumulative) and learn more deeply by practicing two evidence-based learning strategies: spaced repetition and retrieval. There are 11 quizzes in total. **I will automatically drop your lowest grade**. The remaining 10 quizzes are worth 3% each.
+
+### Weekly Problems (20%)
+
+> "The one who does the work does the learning." 
+> - Todd Zakrajsek (2022), *The New Science of Learning: How to Learn in Harmony with Your Brain*. Routledge.
+
+Each assigned reading ends with a set of questions and/or problems to help you develop foundational skills and learn the content more deeply. You must complete at least 2 questions / problems and upload your work to the appropriate Dropbox on Learn. You will receive a "pass" for any reasonable attempt.
+
+### Midterm (20%) and Final Exam (30%)
+
+There will be an **in-class midterm exam** in Week 6, testing course material from Weeks 1-5. The **final exam** will cover content from the entire course, but with a heavy emphasis on material introduced in Weeks 6-12 (which builds on the first 5 weeks). 
+
+## Course Schedule
+
+All content linked below can also be accessed from the menu at the top of the course website.
+
+
+| Week | Module | Assigned Reading | Lecture Slides |
+|:-----|:-------|:-----------------|:-------|
+| 01 | [Introduction](../modules/Module-01.qmd) | [Chapter 1](../textbook/chapters/1-introduction.qmd) | [Slides](../slides/slides-01.qmd) |
+| 02 | [Scientific Computing and Reproducible Research](../modules/Module-02.qmd) | [Chapter 2](../textbook/chapters/2-computing.qmd) | [Slides](../slides/slides-02.qmd) |
+| 03 | [Foundations of Causal and Generative Models](../modules/Module-03.qmd) | [Chapter 3](../textbook/chapters/3-causal-generative-models.qmd) | [Slides](../slides/slides-03.qmd) |
+| 04 | [Foundations of Probabilistic Programming](../modules/Module-04.qmd) | [Chapter 4](../textbook/chapters/4-probabilistic-programming.qmd) | [Slides](../slides/slides-04.qmd) |
+| 05 | [Quantifying Uncertainty and Reallocating Credibility](../modules/Module-05.qmd) | [Chapter 5](../textbook/chapters/5-bayesian-inference.qmd) | [Slides](../slides/slides-05.qmd) |
+| 06 | [Automating Inference via Stochastic Sampling](../modules/Module-06.qmd) | [Chapter 6](../textbook/chapters/6-stochastic-sampling.qmd) | [Slides](../slides/slides-06.qmd) |
+| 07 | [Linear Models](../modules/Module-07.qmd) | [Chapter 7](../textbook/chapters/7-linear-models.qmd) | [Slides](../slides/slides-07.qmd) |
+| 08 | [Hierarchical Regression](../modules/Module-08.qmd) | [Chapter 8](../textbook/chapters/8-hierarchical-regression.qmd) | [Slides](../slides/slides-08.qmd) |
+| 09 | [Measurement Error, Missing Data, and Generalized Linear Models](../modules/Module-09.qmd) | [Chapter 9](../textbook/chapters/9-measurement-missing-data-glms.qmd) | [Slides](../slides/slides-09.qmd) |
+| 10 | [Modelling Network Structure and Dynamics](../modules/Module-10.qmd) | [Chapter 10](../textbook/chapters/10-modelling-networks.qmd) | [Slides](../slides/slides-10.qmd) |
+| 11 | [Complex Systems and Agent-based Models](../modules/Module-11.qmd) | [Chapter 11](../textbook/chapters/11-agent-based-models.qmd) | [Slides](../slides/slides-11.qmd) |
+| 12 | [Conclusion](../modules/Module-12.qmd) | [Chapter 12](../textbook/chapters/12-conclusion.qmd) | [Slides](../slides/slides-12.qmd) |

@@ -1,10 +1,17 @@
-![Everything is not fine.](../images/everything_is_fine.jpg){.lightbox}
+---
+author: John McLevey
+date: 06/22/2023
+date-modified: last-modified
+---
 
-# Data, Methods, and Models {.unnumbered}
+# Preface {.unnumbered}
 
-## An Introduction to Reproducible Quantitative Research from a Bayesian Perspective 
+- Connection to @mclevey2022doing...
 
-This is an open educational resource... / free textbook accompanying my course *Data, Methods, and Models*. 
+:::{.callout-warning}
+## This is a Manuscript in Progress
+- What to expect   
+- How to give feedback
+:::
 
-More soon...
-
+![Everything is not fine with the way we teach and practice statistics in the sciences. We can all do better.](../images/everything-is-fine.jpg){fig-align="left" width=70% .lightbox}
